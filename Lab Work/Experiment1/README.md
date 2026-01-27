@@ -128,6 +128,29 @@ exit
 vagrant halt
 ```
 
+## Screenshots
+<img width="533" height="395" alt="Screenshot 2026-01-27 at 11 54 13 PM" src="https://github.com/user-attachments/assets/7a8fecf5-adf0-40b3-978a-b33a857ae03a" />
+<img width="518" height="383" alt="Screenshot 2026-01-27 at 11 54 00 PM" src="https://github.com/user-attachments/assets/bf020e71-4cd8-4f74-a24e-f13976fe8905" />
+<img width="535" height="395" alt="Screenshot 2026-01-27 at 11 53 50 PM" src="https://github.com/user-attachments/assets/123f8d01-812a-4024-bd10-951f7b3177ec" />
+<img width="528" height="395" alt="Screenshot 2026-01-27 at 11 53 36 PM" src="https://github.com/user-attachments/assets/399438b5-256f-425c-b329-e6e239ee7708" />
+<img width="463" height="260" alt="Screenshot 2026-01-27 at 11 53 18 PM" src="https://github.com/user-attachments/assets/4b24dc32-ec6b-4e16-a677-4a7d37942102" />
+<img width="532" height="347" alt="Screenshot 2026-01-27 at 11 53 07 PM" src="https://github.com/user-attachments/assets/74fa49ae-89f1-4c73-8e14-aff8a549418c" />
+<img width="541" height="435" alt="Screenshot 2026-01-27 at 11 55 28 PM" src="https://github.com/user-attachments/assets/ddac019b-a561-485d-9448-73aab8d5b907" />
+<img width="552" height="484" alt="Screenshot 2026-01-27 at 11 55 20 PM" src="https://github.com/user-attachments/assets/fb31ca76-ca08-489b-93af-2755cf3e2ca7" />
+<img width="462" height="463" alt="Screenshot 2026-01-27 at 11 55 11 PM" src="https://github.com/user-attachments/assets/18edd5a4-c9ea-4015-89e0-c32478295afb" />
+<img width="543" height="410" alt="Screenshot 2026-01-27 at 11 54 58 PM" src="https://github.com/user-attachments/assets/0cac7bfb-7b5d-4bb6-b55e-a6299a2cf090" />
+<img width="538" height="377" alt="Screenshot 2026-01-27 at 11 54 42 PM" src="https://github.com/user-attachments/assets/574dee0e-487f-4539-8c7f-18b49bb2d71b" />
+<img width="534" height="386" alt="Screenshot 2026-01-27 at 11 54 34 PM" src="https://github.com/user-attachments/assets/79c70720-d02d-4864-8faf-2eb5b6b36bb4" />
+<img width="537" height="385" alt="Screenshot 2026-01-27 at 11 54 25 PM" src="https://github.com/user-attachments/assets/292c98d4-aeb0-49f5-b691-bb8612d743ba" />
+<img width="834" height="701" alt="Screenshot 2026-01-27 at 11 56 08 PM" src="https://github.com/user-attachments/assets/94f69beb-715c-40ca-9e8e-d734635e1faf" />
+<img width="543" height="488" alt="Screenshot 2026-01-27 at 11 56 01 PM" src="https://github.com/user-attachments/assets/d78c4624-4423-4585-b4d2-6adf010c598a" />
+<img width="538" height="541" alt="Screenshot 2026-01-27 at 11 55 53 PM" src="https://github.com/user-attachments/assets/e6e2b8a4-fd5b-46aa-a030-6b9d873a6038" />
+<img width="541" height="441" alt="Screenshot 2026-01-27 at 11 55 45 PM" src="https://github.com/user-attachments/assets/79478043-66a8-4740-82b8-c6b3a94f8f9a" />
+<img width="532" height="439" alt="Screenshot 2026-01-27 at 11 55 37 PM" src="https://github.com/user-attachments/assets/bf333d81-dd76-4b0c-b764-6c0f763f31ac" />
+
+
+
+
 ---
 
 ##  Comparison Summary
