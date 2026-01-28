@@ -126,6 +126,19 @@ docker stop nginx-container
 docker rm nginx-container
 exit
 vagrant halt
+
+
+##  Comparison Summary
+
+| Parameter | Virtual Machine | Container |
+|---------|----------------|-----------|
+| Boot Time | High | Very Low |
+| RAM Usage | High | Low |
+| CPU Overhead | Higher | Minimal |
+| Disk Usage | Larger | Smaller |
+| Isolation | Strong | Moderate |
+
+
 ```
 
 ## Screenshots
@@ -165,21 +178,6 @@ vagrant halt
 
 <img width="532" height="439" alt="Screenshot 2026-01-27 at 11 55 37 PM" src="https://github.com/user-attachments/assets/bf333d81-dd76-4b0c-b764-6c0f763f31ac" />
 
-
-
-
----
-
-##  Comparison Summary
-
-| Parameter | Virtual Machine | Container |
-|---------|----------------|-----------|
-| Boot Time | High | Very Low |
-| RAM Usage | High | Low |
-| CPU Overhead | Higher | Minimal |
-| Disk Usage | Larger | Smaller |
-| Isolation | Strong | Moderate |
-
 ---
 
 ## Results
@@ -187,5 +185,5 @@ This experiment demonstrates that containers are significantly more lightweight 
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 Virtual Machines and Containers both have their place in modern infrastructure. However, containers are preferred in cloud-native and DevOps environments due to their speed, efficiency, and portability.
