@@ -1,4 +1,4 @@
-## Lab Title
+##  Title
 **Installing Java (OpenJDK) and Executing a Java Program inside Docker Ubuntu Container**
 
 ---
