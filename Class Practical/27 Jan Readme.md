@@ -1,4 +1,4 @@
-Title  
+### Title  
 **Creating Custom Docker Images using Commit and Performing Image Backup & Restore**
 
 ---
@@ -109,6 +109,7 @@ docker history myrepo/java-img
 <img width="1440" height="900" alt="Screenshot 2026-01-27 at 3 44 54 PM" src="https://github.com/user-attachments/assets/bb52c1e4-0154-4de7-9ce1-2fc504df74a0" />
 <img width="1440" height="900" alt="Screenshot 2026-01-27 at 3 44 51 PM" src="https://github.com/user-attachments/assets/3dfc81c8-499a-427b-9b41-dbb4b0da29e6" />
 <img width="1440" height="900" alt="Screenshot 2026-01-27 at 3 44 46 PM" src="https://github.com/user-attachments/assets/4cb2a9ff-5df2-463c-b629-f761437bb678" />
+<img width="1440" height="900" alt="Screenshot 2026-01-27 at 3 44 43 PM" src="https://github.com/user-attachments/assets/891807ca-e9ca-4827-896c-06d87ffb0d64" />
 
 ### Results
 Docker system verified successfully.
@@ -126,4 +127,3 @@ Exported Docker images into archive backups
 Restored images anytime without rebuilding
 Managed complete lifecycle of Docker images and containers
 Docker provides powerful tools for portability, deployment, and system recovery.
-<img width="1440" height="900" alt="Screenshot 2026-01-27 at 3 44 43 PM" src="https://github.com/user-attachments/assets/891807ca-e9ca-4827-896c-06d87ffb0d64" />
