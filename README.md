@@ -6,11 +6,11 @@ This repository contains all my college lab work, practical experiments, class a
 
 ---
 ## Author 
-Name : Daksh Mehrotra 
-Sap Id : 500125960 
-Roll no. R2142231932 
-Batch : 2 CCVT 
-B.Tech Student | DevOps & Containerization Lab and Class Work Repository maintained for academic and learning purposes.
+- Name : Daksh Mehrotra 
+- Sap Id : 500125960 
+- Roll no. R2142231932 
+- Batch : 2 CCVT 
+- B.Tech Student | DevOps & Containerization Lab and Class Work Repository maintained for academic and learning purposes.
 
 ## Purpose of This Repository
 
