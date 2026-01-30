@@ -165,15 +165,15 @@ All important screenshots of the following steps are attached in the repository:
 - Docker Hub login and token creation
 - Successful image push to Docker Hub
 
-<img width="1440" height="624" alt="Screenshot 2026-01-30 at 12 58 44 PM" src="https://github.com/user-attachments/assets/29495896-8118-4f60-a2fd-d9f1c6cc21e3" />
-<img width="1437" height="821" alt="Screenshot 2026-01-30 at 12 40 59 PM" src="https://github.com/user-attachments/assets/099bf6b5-cfc9-4a97-8766-b5c44e36dbb4" />
-<img width="1440" height="826" alt="Screenshot 2026-01-30 at 12 39 44 PM" src="https://github.com/user-attachments/assets/b6e49bcb-8f70-4043-b3e6-571b1509187f" />
-<img width="1440" height="900" alt="Screenshot 2026-01-30 at 12 38 56 PM" src="https://github.com/user-attachments/assets/22255dc8-a9d3-423e-8e19-ebbd875e0a39" />
-<img width="1440" height="817" alt="Screenshot 2026-01-30 at 12 38 43 PM" src="https://github.com/user-attachments/assets/dda1f858-5685-487b-a1fa-a128898b35ae" />
-<img width="1440" height="514" alt="Screenshot 2026-01-30 at 12 33 08 PM" src="https://github.com/user-attachments/assets/6c82315a-7767-4fd8-951a-4a7715f4782e" />
-<img width="1440" height="900" alt="Screenshot 2026-01-30 at 12 19 45 PM" src="https://github.com/user-attachments/assets/ba3cb93c-d33d-4980-8f77-f78e7c5dceed" />
-<img width="1440" height="900" alt="Screenshot 2026-01-30 at 12 19 41 PM" src="https://github.com/user-attachments/assets/3ab06c44-ed99-4548-a8cc-01287d8d4e98" />
-<img width="1440" height="185" alt="Screenshot 2026-01-30 at 2 39 29 PM" src="https://github.com/user-attachments/assets/b0d0bb5b-e532-4512-be1d-fa09dcc0c13a" />
+<img width="1440" height="900" alt="Screenshot 2026-01-30 at 12 19 41 PM" src="https://github.com/user-attachments/assets/d4a30f83-741a-4964-9dee-62c2ad79ee69" />
+<img width="1440" height="900" alt="Screenshot 2026-01-30 at 12 19 45 PM" src="https://github.com/user-attachments/assets/8ed7ea0c-6c90-4a5d-850e-f30d8f6fa3b7" />
+<img width="1440" height="514" alt="Screenshot 2026-01-30 at 12 33 08 PM" src="https://github.com/user-attachments/assets/eb4c0bb6-31bb-4af3-bc4d-21bd78f66b9e" />
+<img width="1440" height="817" alt="Screenshot 2026-01-30 at 12 38 43 PM" src="https://github.com/user-attachments/assets/411fcbb8-39b9-438b-8f9f-6701dc6395ac" />
+<img width="1440" height="900" alt="Screenshot 2026-01-30 at 12 38 56 PM" src="https://github.com/user-attachments/assets/03c3b6f2-c56d-4bfe-84b7-0b225959cf51" />
+<img width="1440" height="826" alt="Screenshot 2026-01-30 at 12 39 44 PM" src="https://github.com/user-attachments/assets/bb727008-7cba-4afc-927a-64b3cd6bffba" />
+<img width="1437" height="821" alt="Screenshot 2026-01-30 at 12 40 59 PM" src="https://github.com/user-attachments/assets/8b13a40a-c9e3-4290-af83-ec8e0df26862" />
+<img width="1440" height="624" alt="Screenshot 2026-01-30 at 12 58 44 PM" src="https://github.com/user-attachments/assets/8fc83557-4f0f-4782-93c0-1c4ce04e8a06" />
+<img width="1440" height="185" alt="Screenshot 2026-01-30 at 2 39 29 PM" src="https://github.com/user-attachments/assets/5d48f69c-dd79-42f4-9b60-8459eee9286a" />
 
 ## Result
 This successfully demonstrated:
