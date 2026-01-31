@@ -80,7 +80,7 @@ Link:
 [Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
 
 
-## Class Practicals 
+## Class Practicals Included
 
 ### Class Practical — 21 January (DevOps Fundamentals & Setup)
 A date-wise practical session focused on understanding and implementing core DevOps foundations through hands-on exercises using:
