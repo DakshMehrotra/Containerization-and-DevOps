@@ -1,160 +1,123 @@
 # Containerization and DevOps Lab Repository
 
-Welcome to my Containerization and DevOps repository.
+Welcome to my **Containerization and DevOps** laboratory repository.
 
-This repository contains all my college lab work, practical experiments, class activities, documentation, and notes related to the subject. The main purpose of this repository is to gain hands-on experience and strong understanding of how modern applications are built, containerized, automated, deployed, and managed using DevOps practices.
+This repository contains all my **college-related coursework, lab experiments, practical implementations, class activities, documentation, and notes** for the subject **Containerization and DevOps**.
 
-## Experiments
+The main objective of this repository is to develop a strong understanding of how modern software applications are:
 
-- [Experiment 1 — Virtual Machines vs Containers](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment1/README.md)
-- A DevOps-oriented comparison between Virtual Machines and Containers using Ubuntu, VirtualBox, Vagrant, Docker, and Nginx. Demonstrates infrastructure provisioning, VM-based service deployment, containerized application execution, and architectural differences in resource usage and isolation.
+- Built and deployed efficiently  
+- Containerized using Docker  
+- Automated through DevOps workflows  
+- Managed using industry-standard tools and practices  
 
-- [Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
-- Covers Docker fundamentals including image pulling, container execution with port mapping, service verification, port conflict handling, and full container lifecycle management reflecting real-world container deployment workflows.
-
-
+This repository is maintained strictly for **academic submission and learning purposes**.
 
 ---
-## Author 
-- Name : Daksh Mehrotra 
-- Sap Id : 500125960 
-- Roll no. R2142231932 
-- Batch : 2 CCVT 
-- B.Tech Student | DevOps & Containerization Lab and Class Work Repository maintained for academic and learning purposes.
+
+## Author Information
+
+- **Name:** Daksh Mehrotra  
+- **SAP ID:** 500125960  
+- **Roll Number:** R2142231932  
+- **Batch:** 2 CCVT  
+- **Program:** B.Tech Student  
+- **Repository Type:** College Lab + Class Work Submission  
+
+---
 
 ## Purpose of This Repository
 
-This repository is created as part of my college laboratory and coursework for the subject:
+This repository is created as part of my official college laboratory coursework for:
 
-Containerization and DevOps
+**Containerization and DevOps**
 
 It includes:
 
 - Lab experiment implementations  
-- Commands practiced in class  
-- Teacher-guided activities  
-- Proper documentation  
+- Class practical activities  
+- Teacher-guided command execution  
+- Step-by-step documentation  
 - Output screenshots  
-- Notes for understanding concepts  
-
----
-
-## Topics Covered
-
-This repository contains both theory and practical implementation of major DevOps and Containerization concepts.
-
----
-
-## Containerization (Docker)
-
-- Introduction to containerization  
-- Virtual Machines vs Containers  
-- Docker architecture  
-- Working with Docker images and containers  
-- Writing Dockerfiles  
-- Essential Docker commands:
-
-  - docker build  
-  - docker run  
-  - docker ps  
-  - docker exec  
-  - docker logs  
-  - docker stop  
-
-- Docker networking and volumes  
-- Docker Compose basics  
-
----
-
-## DevOps Fundamentals
-
-- What is DevOps?  
-- DevOps lifecycle stages  
-- CI/CD overview  
-- Infrastructure as Code (IaC) basics  
-- Continuous Integration and Deployment concepts  
-- DevOps culture and automation  
-
----
-
-## Version Control with Git and GitHub
-
-- Git commands and workflows  
-- Repository creation and management  
-- Branching and merging  
-- Pull Requests  
-- Collaboration using GitHub  
-
----
-
-## CI/CD Pipelines
-
-- Automated build and deployment pipelines  
-- Continuous testing basics  
-- CI/CD tools explored:
-
-  - GitHub Actions  
-  - Jenkins (if included)  
-
----
-
-## Cloud and Deployment Concepts
-
-- Basics of cloud platforms  
-- Container-based deployment  
-- Environment setup and configuration  
-- Introduction to scaling and deployment workflows  
-
----
-
-## Monitoring and Logging
-
-- Importance of monitoring in DevOps  
-- Logs and metrics overview  
-- Application health and performance tracking basics  
-
----
-
-## Tools and Technologies Used
-
-This repository includes work based on the following tools:
-
-- Docker  
-- Git and GitHub  
-- GitHub Actions  
-- Linux Commands  
-- Shell Scripting  
-- CI/CD Concepts  
-- Cloud Deployment Basics  
+- Observations and conclusions  
+- Notes for concept understanding  
 
 ---
 
 ## Lab Experiments Included
 
-This repository also serves as my official college lab submission record, containing:
+### Experiment 1 — Virtual Machines vs Containers  
+A DevOps-oriented comparison between Virtual Machines and Containers using:
 
-- Experiment files  
-- Step-by-step execution  
-- Commands performed during lab sessions  
-- Screenshots of outputs  
-- Proper documentation for each practical  
+- Ubuntu  
+- VirtualBox  
+- Vagrant  
+- Docker  
+- Nginx  
 
-Each lab folder contains:
+This experiment demonstrates:
 
-- Source or code files  
-- Procedure followed  
-- Output screenshots  
-- Observations and results  
+- Infrastructure provisioning  
+- VM-based deployment workflow  
+- Containerized service execution  
+- Architectural differences in isolation and performance  
+
+Link:  
+[Experiment 1 — Virtual Machines vs Containers](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment1/README.md)
 
 ---
 
-## Repository Structure
+### Experiment 2 — Docker Installation & Container Lifecycle  
+This experiment covers the fundamentals of Docker including:
 
-```text
-├── CI-CD/
-├── Class Practical/
-├── DevOps/
-├── Docker/
-├── Lab Work/
-├── Notes/
-└── README.md
+- Pulling images  
+- Running containers with port mapping  
+- Verifying services in browser  
+- Resolving port conflicts  
+- Container start/stop/remove lifecycle commands  
+
+Link:  
+[Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
+
+---
+
+## Topics Covered
+
+This repository includes both theoretical understanding and hands-on implementation of:
+
+---
+
+### Containerization (Docker)
+
+- Introduction to containerization  
+- Virtual Machines vs Containers  
+- Docker architecture and components  
+- Working with Docker images and containers  
+- Writing Dockerfiles  
+- Essential Docker commands:
+
+  - `docker build`  
+  - `docker run`  
+  - `docker ps`  
+  - `docker exec`  
+  - `docker logs`  
+  - `docker stop`  
+
+- Docker networking and storage volumes  
+- Introduction to Docker Compose  
+
+---
+
+## Academic Declaration
+This repository is maintained as part of my official college coursework submission.
+All practical work has been performed, documented, and organized according to university laboratory requirements under the subject:
+Containerization and DevOps
+
+## Submission Note
+Each experiment folder contains:
+- Objective
+- Procedure and commands
+- Output screenshots
+- Observations
+- Conclusion
+This repository serves as a complete academic record of my practical learning.
