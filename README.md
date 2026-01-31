@@ -63,7 +63,7 @@ This experiment demonstrates:
 - Architectural differences in isolation and performance  
 
 Link:  
-[Experiment 1 — Virtual Machines vs Containers](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment1/README.md)
+[Experiment 1 — Virtual Machines vs Containers](./Experiment1)
 
 ---
 
@@ -77,7 +77,35 @@ This experiment covers the fundamentals of Docker including:
 - Container start/stop/remove lifecycle commands  
 
 Link:  
-[Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
+[Experiment 2 — Docker Installation & Container Lifecycle](./Experiment 2)
+
+
+## Class Practicals 
+
+### Class Practical — 21 January (DevOps Fundamentals & Setup)
+A date-wise practical session focused on understanding and implementing core DevOps foundations through hands-on exercises using:
+- Linux Environment
+- Basic Shell Commands
+- Docker Introduction
+- Container Execution
+- DevOps Workflow Setup
+
+Link:
+[Class Practical 21 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/21%20Jan%20Readme.md)
+
+### Class Practical — 22 January (Docker Basics & Container Management)
+A date-wise practical session focused on exploring Docker core concepts and managing containers through hands-on classroom implementation using:
+- Docker CLI Commands
+- Container Lifecycle Operations
+- Image Pulling and Execution
+- Basic Container Monitoring
+- Practical DevOps Environment Setup
+
+Link:
+[Class Practical 22 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/22%20Jan%20Readme.md)
+
+### 
+
 
 ---
 
