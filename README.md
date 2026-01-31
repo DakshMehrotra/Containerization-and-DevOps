@@ -7,10 +7,10 @@ This repository contains all my college lab work, practical experiments, class a
 ## Experiments
 
 - [Experiment 1 — Virtual Machines vs Containers](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment1/README.md)
-A DevOps-oriented comparison between Virtual Machines and Containers using Ubuntu, VirtualBox, Vagrant, Docker, and Nginx. Demonstrates infrastructure provisioning, VM-based service deployment, containerized application execution, and architectural differences in resource usage and isolation.
+- A DevOps-oriented comparison between Virtual Machines and Containers using Ubuntu, VirtualBox, Vagrant, Docker, and Nginx. Demonstrates infrastructure provisioning, VM-based service deployment, containerized application execution, and architectural differences in resource usage and isolation.
 
 - [Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
-Covers Docker fundamentals including image pulling, container execution with port mapping, service verification, port conflict handling, and full container lifecycle management — reflecting real-world container deployment workflows.
+- Covers Docker fundamentals including image pulling, container execution with port mapping, service verification, port conflict handling, and full container lifecycle management reflecting real-world container deployment workflows.
 
 
 
