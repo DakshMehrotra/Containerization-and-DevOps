@@ -121,7 +121,7 @@ It demonstrated how Docker simplifies application deployment by allowing lightwe
 Docker is highly suitable for modern DevOps workflows, microservices deployment, and scalable application environments.
 
 ## References
-Docker Official Documentation: https://docs.docker.com/
-nginx Docker Hub Image: https://hub.docker.com/_/nginx
-Docker CLI Reference: https://docs.docker.com/engine/reference/commandline/docker/
+- Docker Official Documentation: https://docs.docker.com/
+- nginx Docker Hub Image: https://hub.docker.com/_/nginx
+- Docker CLI Reference: https://docs.docker.com/engine/reference/commandline/docker/
 
