@@ -63,7 +63,7 @@ This experiment demonstrates:
 - Architectural differences in isolation and performance  
 
 Link:  
-[Experiment 1 — Virtual Machines vs Containers](./Experiment1)
+[Experiment 1 — Virtual Machines vs Containers](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment1/README.md)
 
 ---
 
@@ -77,7 +77,7 @@ This experiment covers the fundamentals of Docker including:
 - Container start/stop/remove lifecycle commands  
 
 Link:  
-[Experiment 2 — Docker Installation & Container Lifecycle](./Experiment 2)
+[Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
 
 
 ## Class Practicals 
@@ -104,7 +104,51 @@ A date-wise practical session focused on exploring Docker core concepts and mana
 Link:
 [Class Practical 22 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/22%20Jan%20Readme.md)
 
-### 
+### Class Practical — 23 January (Docker Networking & Multi-Container Basics)
+A date-wise practical session focused on understanding Docker networking concepts and working with multiple containers through hands-on classroom exercises using:
+- Docker Network Commands
+- Bridge Networking Mode
+- Container-to-Container Communication
+- Port Mapping and Exposure
+- Multi-Service Deployment Basics
+
+Link:
+[Class Practical 23 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/23%20Jan%20Readme.md)
+
+### Class Practical — 27 January (Docker Volumes & Persistent Storage)
+A date-wise practical session focused on understanding Docker data persistence concepts and managing storage using hands-on classroom implementation through:
+- Docker Volume Creation
+- Persistent Data Handling
+- Bind Mounts vs Volumes
+- Container Storage Management
+- Practical Stateful Container Setup
+
+Link:
+[Class Practical 27 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/27%20Jan%20Readme.md)
+
+### Class Practical — 28 January (Docker Compose & Multi-Service Deployment)
+A date-wise practical session focused on learning Docker Compose and deploying multi-container applications through structured classroom exercises using:
+- Docker Compose YAML Configuration
+- Multi-Container Service Setup
+- Container Orchestration Basics
+- Automated Service Deployment
+- DevOps Application Structuring
+
+Link:
+[Class Practical 28 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/28%20Jan%20Readme.md)
+
+### Class Practical — 30 January (Dockerfile Creation & Image Building)
+A date-wise practical session focused on understanding Dockerfile instructions and building custom Docker images through hands-on classroom implementation using:
+- Dockerfile Syntax and Commands
+- Custom Image Creation
+- Layer-Based Image Architecture
+- Building and Running Containers from Images
+- DevOps Application Packaging Workflow
+
+Link:
+[Class Practical 30 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/30%20Jan%20Readme.md)
+
+
 
 
 ---
