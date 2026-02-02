@@ -35,12 +35,12 @@ The objective is :
 
 Docker Desktop was launched using:
 
-open -a Docker
+- open -a Docker
 
 Docker installation was verified using:
 
-docker version
-docker info
+- docker version
+- docker info
 
 This confirmed that both client and server were running correctly.
 
@@ -51,19 +51,18 @@ The successful output confirmed that Docker can pull and run images correctly.
 
 ## Step 3: Pulling and Running Ubuntu Container
 Ubuntu was pulled from Docker Hub:
-docker pull ubuntu
+- docker pull ubuntu
 
 A container was started interactively:
-
-docker run -it ubuntu bash
+- docker run -it ubuntu bash
 This created a working Linux environment inside Docker.
 
 ## Step 4: Installing Java Inside Ubuntu Container
 Inside the running container, system packages were updated:
-apt update
+- apt update
 
 OpenJDK 17 was installed:
-apt install -y openjdk-17-jdk
+- apt install -y openjdk-17-jdk
 This prepared the container for running Java applications.
 
 ## Step 5: Creating and Running Java Program
@@ -77,8 +76,8 @@ public class HelloWorld {
 
 The program was compiled and executed:
 
-javac HelloWorld.java
-java HelloWorld
+- javac HelloWorld.java
+- java HelloWorld
 Output was successfully displayed inside the container.
 
 ## Step 6: Building Custom Docker Image Using Dockerfile
@@ -98,50 +97,50 @@ CMD ["java", "Hello"]
 
 The Docker image was built using:
 
-docker build -t java-app:1.0 .
+- docker build -t java-app:1.0 .
 The image was listed using:
-docker images
+- docker images
 
 ## Step 7: Managing Docker Images and Containers
 All running and stopped containers were checked:
-docker ps -a
+- docker ps -a
 
 Unused images were removed using:
-docker rmi <image-id>
+- docker rmi <image-id>
 
 Stopped containers were removed using:
-docker rm <container-id>
+- docker rm <container-id>
 
 ## Step 8: Exporting Image as TAR File
 The Docker image was saved as a tar archive:
-docker save -o java-app.tar myrepo/java-img
+- docker save -o java-app.tar myrepo/java-img
 
 File size and details were verified:
-stat java-app.tar
-du -h java-app.tar
+- stat java-app.tar
+- du -h java-app.tar
 
 ## Step 9: Loading Image Back from TAR Archive
 The image was loaded back using:
-docker load -i java-app.tar
+- docker load -i java-app.tar
 
 This confirmed portability of Docker images.
 
 ## Step 10: Docker Hub Authentication and Token Setup
 Docker Hub Personal Access Token was generated from:
-Docker Hub Dashboard
-Settings → Personal Access Tokens
+- Docker Hub Dashboard
+- Settings → Personal Access Tokens
 
-Docker login was performed:
-docker login -u daksh24
+- Docker login was performed:
+- docker login -u daksh24
 
 Authentication succeeded using token-based login.
 
 ## Step 11: Tagging and Pushing Image to Docker Hub
 The image was tagged before pushing:
-docker tag java-app:1.0 daksh24/java-app:1.0
+- docker tag java-app:1.0 daksh24/java-app:1.0
 
 The image was pushed successfully:
-docker push daksh24/java-app:1.0
+- docker push daksh24/java-app:1.0
 
 Docker Hub repository upload was confirmed.
 
@@ -176,15 +175,13 @@ All important screenshots of the following steps are attached in the repository:
 <img width="1440" height="185" alt="Screenshot 2026-01-30 at 2 39 29 PM" src="https://github.com/user-attachments/assets/5d48f69c-dd79-42f4-9b60-8459eee9286a" />
 
 ## Result
-This successfully demonstrated:
-Docker setup and execution on macOS
-Running containers and managing images
-Containerizing Java applications using Dockerfile
-Exporting and importing Docker images
-Uploading custom Docker image to Docker Hub
+- This successfully demonstrated:
+- Docker setup and execution on macOS
+- Running containers and managing images
+- Containerizing Java applications using Dockerfile
+- Exporting and importing Docker images
+- Uploading custom Docker image to Docker Hub
 
 ## Conclusion
-Docker provides an efficient and scalable solution for application deployment.
-Through this work, I learned the complete lifecycle of Docker containers including building, running, saving, loading, tagging, and pushing images to Docker Hub. This experiment helped me understand real-world DevOps and containerization practices.
-
-
+- Docker provides an efficient and scalable solution for application deployment.
+- Through this work, I learned the complete lifecycle of Docker containers including building, running, saving, loading, tagging, and pushing images to Docker Hub. This experiment helped me understand real-world DevOps and containerization practices.
