@@ -63,7 +63,7 @@ This experiment demonstrates:
 - Architectural differences in isolation and performance  
 
 Link:  
-[Experiment 1 — Virtual Machines vs Containers](Experiment1/)
+[Experiment 1 — Virtual Machines vs Containers](./Experiment-1/)
 
 ---
 
@@ -77,7 +77,7 @@ This experiment covers the fundamentals of Docker including:
 - Container start/stop/remove lifecycle commands  
 
 Link:  
-[Experiment 2 — Docker Installation & Container Lifecycle](Experiment%202/)
+[Experiment 2 — Docker Installation & Container Lifecycle](./Experiment-2/)
 
 
 ## Class Practicals Included
