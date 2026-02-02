@@ -4,10 +4,10 @@
 To create a Docker image for a simple Java application using a Dockerfile, build the image, and verify that it runs successfully inside a container.
 
 ## Requirements
-Before starting, ensure you have the following installed:
-Docker Desktop (Mac/Windows/Linux)
-Basic knowledge of terminal commands
-Java source file (Hello.java)
+- Before starting, ensure you have the following installed:
+- Docker Desktop (Mac/Windows/Linux)
+- Basic knowledge of terminal commands
+- Java source file (Hello.java)
 
 ## Project Structure
 Container Codes/
@@ -79,10 +79,7 @@ Hello, Docker!
 
 
 ## Result
-Successfully created a Docker image containing a Java program and executed it inside a container.
+- Successfully created a Docker image containing a Java program and executed it inside a container.
 
 ## Conclusion
-This experiment demonstrates how Docker can package a Java application along with its runtime environment, ensuring portability and consistency across systems.
-
-
-
+- This experiment demonstrates how Docker can package a Java application along with its runtime environment, ensuring portability and consistency across systems.
