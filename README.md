@@ -63,7 +63,7 @@ This experiment demonstrates:
 - Architectural differences in isolation and performance  
 
 Link:  
-[Experiment 1 — Virtual Machines vs Containers](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment1/README.md)
+[Experiment 1 — Virtual Machines vs Containers](./Experiment1/)
 
 ---
 
@@ -77,7 +77,7 @@ This experiment covers the fundamentals of Docker including:
 - Container start/stop/remove lifecycle commands  
 
 Link:  
-[Experiment 2 — Docker Installation & Container Lifecycle](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Lab%20Work/Experiment%202/README.md)
+[Experiment 2 — Docker Installation & Container Lifecycle](./Experiment%202/)
 
 
 ## Class Practicals Included
