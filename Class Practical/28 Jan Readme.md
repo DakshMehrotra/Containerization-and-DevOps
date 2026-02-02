@@ -23,9 +23,8 @@ public class Hello {
     }
 }
 
-Dockerfile Used ->
-
-
+- Dockerfile Used ->
+- 
 FROM ubuntu:22.04
 
 RUN apt update && apt install -y openjdk-17-jdk
@@ -41,30 +40,30 @@ CMD ["java", "Hello"]
 ## Steps Performed
 
 1. Start Docker Desktop:
-   open -a Docker
-   Check Docker status::
-   docker info
+   - open -a Docker
+   - Check Docker status::
+   - docker info
    
 2. Navigate to Project Directory
-   cd ~/Desktop/College/"6th Semester"/"Container and deveops"/"Container Codes"
+   - cd ~/Desktop/College/"6th Semester"/"Container and deveops"/"Container Codes"
 
 List files:
-ls
+- ls
 
 Output:
-Dockerfile  Hello.java
+- Dockerfile  Hello.java
 
 3. Build Docker Image
-   docker build -t java-app:1.0 .
+   - docker build -t java-app:1.0 .
 
    This creates a Docker image named:
-   java-app:1.0
+   - java-app:1.0
 
 4. Verify Image Creation
-   docker images
+   - docker images
 
 5. Run the Container
-   docker run java-app:1.0
+   - docker run java-app:1.0
 Output:
 Hello, Docker!
 
