@@ -93,14 +93,15 @@ This created the container successfully with port mapping:
 - Nginx deployment demonstrates container-based web server hosting.
 
 ## Screenshots
-<img width="1440" height="376" alt="Screenshot 2026-02-03 at 3 44 30 PM" src="https://github.com/user-attachments/assets/6b991a50-4da9-4d64-9eed-03b167cd2c1e" />
-<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 41 58 PM" src="https://github.com/user-attachments/assets/87cd3940-d230-4d6a-887e-481ee2e6eeaa" />
-<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 41 40 PM" src="https://github.com/user-attachments/assets/b70ee0f8-21f1-46ff-a383-d1ab0ca011b3" />
-<img width="1437" height="566" alt="Screenshot 2026-02-03 at 3 41 35 PM" src="https://github.com/user-attachments/assets/0aeb0636-5fc1-4f1a-bb18-f3cc19d56851" />
-<img width="1440" height="157" alt="Screenshot 2026-02-03 at 3 39 26 PM" src="https://github.com/user-attachments/assets/859bdb9c-2f6c-49d4-a5a4-9450a4852cb3" />
-<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 37 21 PM" src="https://github.com/user-attachments/assets/e9327aef-e422-4fc2-b16a-9b343105810b" />
-<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 37 16 PM" src="https://github.com/user-attachments/assets/1cda4756-ee8f-421b-9b1b-7f4d8857aea5" />
-<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 37 01 PM" src="https://github.com/user-attachments/assets/e4de1ad4-0ba2-4323-a423-b67d108640f4" />
+
+<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 37 21 PM" src="https://github.com/user-attachments/assets/e015decc-df9b-43dd-b873-cb6c9b8d7e11" />
+<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 37 16 PM" src="https://github.com/user-attachments/assets/bc51c0cb-e0bf-4b1d-89cd-0c10b78b0be6" />
+<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 37 01 PM" src="https://github.com/user-attachments/assets/22372eaa-1a16-401d-bffc-b42e5594588a" />
+<img width="1440" height="376" alt="Screenshot 2026-02-03 at 3 44 30 PM" src="https://github.com/user-attachments/assets/127831b8-6b6b-4896-a8cc-9271906d7e51" />
+<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 41 58 PM" src="https://github.com/user-attachments/assets/eb76b78b-90b1-4985-9140-e2c337c60881" />
+<img width="1440" height="900" alt="Screenshot 2026-02-03 at 3 41 40 PM" src="https://github.com/user-attachments/assets/f0f7320a-b151-41f5-b0a0-562645f0628b" />
+<img width="1437" height="566" alt="Screenshot 2026-02-03 at 3 41 35 PM" src="https://github.com/user-attachments/assets/468a4c24-b71e-4edd-ad9e-ea9583e2e274" />
+<img width="1440" height="157" alt="Screenshot 2026-02-03 at 3 39 26 PM" src="https://github.com/user-attachments/assets/1cd3abdd-b8c5-435d-9001-f0717c1b0176" />
 
 All important screenshots of the practical are attached in this repository, including:
 - Docker Desktop startup
