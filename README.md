@@ -148,6 +148,60 @@ A date-wise practical session focused on understanding Dockerfile instructions a
 Link:
 [Class Practical 30 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/30%20Jan%20Readme.md)
 
+### Class Practical — 3 Feb (Docker Installation Verification & Nginx Deployment)
+A practical session focused on verifying Docker Desktop setup, testing Docker Engine connectivity through CLI and REST API, and deploying a production-ready Nginx container through hands-on implementation using:
+- Docker Installation Verification (macOS Apple Silicon)
+- Docker Engine & Daemon Connectivity Testing
+- Docker CLI and REST API Container Inspection
+- Unix Socket Communication with Docker Engine
+- Nginx Container Pulling and Deployment
+- Container Lifecycle Understanding (Create, Run, Inspect)
+- DevOps Container Deployment Workflow
+
+Link:
+[Class Practical 3 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/3%20Feb%20Readme.md)
+
+### Class Practical — 4 Feb (Docker Engine Configuration & Remote API Access)
+A hands-on practical session focused on configuring Docker Engine, enabling Remote API communication, and validating daemon connectivity through CLI and UNIX socket testing using:
+- Docker Engine Configuration using daemon.json
+- Docker Remote API Enablement (TCP + UNIX Socket)
+- Docker Installation & Engine Status Verification
+- Docker CLI and CURL-Based API Testing
+- Docker Daemon Connectivity Validation
+- Sample Container Deployment (hello-world)
+- Docker Client–Server Architecture Understanding
+- DevOps Engine-Level Configuration Workflow
+  
+Link:
+[Class Practical 4 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/4%20Feb%20Readme.md)
+
+### Class Practical Test — 5 Feb (Containerizing Python SAP ID Verification Application)
+A hands-on class test focused on containerizing a Python-based SAP ID verification application using Docker, demonstrating real-world application packaging and execution inside containers through implementation using:
+- Official Docker Base Image (Python 3.10 Slim)
+- Python Application Containerization Workflow
+- Dependency Installation inside Container (NumPy)
+- Custom Docker Image Building
+- Interactive Container Execution
+- Application Testing inside Container Environment
+- Image vs Container Concept Understanding
+- DevOps Application Packaging and Deployment Workflow
+
+Link:
+[Class Practical Test 5 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/5%20Feb(Class%20Test)%20Readme.md)
+
+### Class Practical — 6 Feb (Running Python Application Using Docker Volume Mount (Continuous Runtime))
+A hands-on practical session focused on executing a containerized Python application using Docker volume mounting for dynamic runtime execution, demonstrating real-world development workflow through implementation using:
+- Official Docker Base Image (Python 3.10 Slim)
+- Docker Volume Mounting (Host ↔ Container File Sharing)
+- Runtime File Injection without Image Rebuild
+- Continuous Input Execution using While Loop
+- Interactive Container Runtime Testing
+- Runtime Error Debugging (Missing File Handling)
+- COPY vs Volume Mount Concept Understanding
+- Real-World Containerized Development Workflow
+  
+Link:
+[Class Practical 6 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Readme.md)
 
 
 
