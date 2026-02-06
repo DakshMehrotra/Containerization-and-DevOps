@@ -116,12 +116,14 @@ This practical includes proof of:
 - Docker Desktop Engine UI
 - Successful container execution
 
-<img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 56 45 AM" src="https://github.com/user-attachments/assets/0a362678-330e-45e7-96d8-d6b2642529a1" />
-<img width="1440" height="336" alt="Screenshot 2026-02-04 at 11 45 44 AM" src="https://github.com/user-attachments/assets/c913c7e1-45d1-4d54-8444-90482de3a3c7" />
-<img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 45 38 AM" src="https://github.com/user-attachments/assets/4d7f7035-efac-4198-a99a-9a5d47336ece" />
-<img width="1440" height="685" alt="Screenshot 2026-02-04 at 11 45 31 AM" src="https://github.com/user-attachments/assets/12388e7c-40a9-4329-b741-0c9da93dd514" />
-<img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 32 57 AM" src="https://github.com/user-attachments/assets/327de235-45ab-4eec-bd56-de860abf66b3" />
+
 <img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 20 49 AM" src="https://github.com/user-attachments/assets/075ef536-f62e-4d3b-89fa-5b7860023d3d" />
+<img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 32 57 AM" src="https://github.com/user-attachments/assets/327de235-45ab-4eec-bd56-de860abf66b3" />
+<img width="1440" height="685" alt="Screenshot 2026-02-04 at 11 45 31 AM" src="https://github.com/user-attachments/assets/12388e7c-40a9-4329-b741-0c9da93dd514" />
+<img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 45 38 AM" src="https://github.com/user-attachments/assets/4d7f7035-efac-4198-a99a-9a5d47336ece" />
+<img width="1440" height="336" alt="Screenshot 2026-02-04 at 11 45 44 AM" src="https://github.com/user-attachments/assets/c913c7e1-45d1-4d54-8444-90482de3a3c7" />
+<img width="1440" height="900" alt="Screenshot 2026-02-04 at 11 56 45 AM" src="https://github.com/user-attachments/assets/0a362678-330e-45e7-96d8-d6b2642529a1" />
+
 
 
 ## Result
