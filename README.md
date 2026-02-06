@@ -203,6 +203,20 @@ A hands-on practical session focused on executing a containerized Python applica
 Link:
 [Class Practical 6 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Readme.md)
 
+### Class Practical — 6 Feb Assignment (Running C Application Using Docker Volume Mount (Runtime Compilation & Continuous Execution))
+A hands-on practical session focused on compiling and running a containerized C application using Docker volume mounting for dynamic runtime execution, demonstrating multi-language container workflows through implementation using:
+- Official Docker Base Image (GCC Latest)
+- Containerized C Program Compilation and Execution
+- Docker Volume Mounting (Host ↔ Container File Sharing)
+- Runtime Source Code Injection without Image Rebuild
+- Continuous Input Execution using Infinite Loop
+- Interactive Container Runtime Testing
+- Build-Time vs Runtime Compilation Understanding
+- Multi-Language Containerized Development Workflow
+
+Link:
+[Class Practical 6 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Assignment%20Readme.md)
+
 
 
 ---
