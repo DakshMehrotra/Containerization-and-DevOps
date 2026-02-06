@@ -105,12 +105,15 @@ After this practical, I learned:
 - Real-world container development workflow
 
 ## Screenshots
-<img width="1440" height="900" alt="Screenshot 2026-02-06 at 4 00 27 PM" src="https://github.com/user-attachments/assets/8eb650c2-9e93-4721-8f6a-a44ee85c5e2a" />
-<img width="1440" height="900" alt="Screenshot 2026-02-06 at 4 00 22 PM" src="https://github.com/user-a<img width="1433" height="213" alt="Screenshot 2026-02-06 at 3 53 17 PM" src="https://github.com/user-attachments/assets/6ea1dc59-cf6e-4903-bbd7-3511b17da28a" />
-<img width="1440" height="335" alt="Screenshot 2026-02-06 at 3 52 29 PM" src="https://github.com/user-attachments/assets/43bb88bc-1360-4735-83fd-fa40d27186f4" />
-<img width="1440" height="900" alt="Screenshot 2026-02-06 at 3 52 09 PM" src="https://github.com/user-attachments/assets/171d9013-2514-43d4-9245-6c0dc6097736" />
-<img width="1440" height="900" alt="Screenshot 2026-02-06 at 3 50 57 PM" src="https://github.com/user-attachments/assets/b740b98d-e306-4684-b14c-b7fa6426895d" />
-ttachments/assets/fd816143-d784-4dc6-9875-d189b65efd2f" />
+
+<img width="1440" height="900" alt="Screenshot 2026-02-06 at 4 00 22 PM" src="https://github.com/user-attachments/assets/445db13f-6165-45c8-b7e8-3146e70591f2" />
+<img width="1440" height="900" alt="Screenshot 2026-02-06 at 4 00 27 PM" src="https://github.com/user-attachments/assets/8d160cf1-52ee-47a4-aa15-a2fdaffb40ae" />
+<img width="1440" height="900" alt="Screenshot 2026-02-06 at 3 50 57 PM" src="https://github.com/user-attachments/assets/3b4c9feb-0586-47d6-8f37-9593d79208e0" />
+<img width="1440" height="900" alt="Screenshot 2026-02-06 at 3 52 09 PM" src="https://github.com/user-attachments/assets/070b325a-1456-4d71-99e1-d4a8c70f05ff" />
+<img width="1440" height="335" alt="Screenshot 2026-02-06 at 3 52 29 PM" src="https://github.com/user-attachments/assets/25ece935-6da5-41fd-9090-54bd07f1d48d" />
+<img width="1433" height="213" alt="Screenshot 2026-02-06 at 3 53 17 PM" src="https://github.com/user-attachments/assets/03428880-9602-4186-97a8-b6d10abbdb20" />
+
+
 
 ## Result
 - Successfully executed C application inside Docker container using volume mounting and interactive runtime execution.
