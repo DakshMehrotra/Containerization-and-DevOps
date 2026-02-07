@@ -79,6 +79,28 @@ This experiment covers the fundamentals of Docker including:
 Link:  
 [Experiment 2 — Docker Installation & Container Lifecycle](./Experiment-2/)
 
+### Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)
+This experiment focuses on building custom Docker images using different Linux base images and deploying NGINX inside containers.
+Base Images Used:
+- Ubuntu 22.04
+- Alpine Linux
+
+This experiment demonstrates:
+- Writing Dockerfiles for custom image creation
+- Installing services inside containers (NGINX)
+- Building Docker images using custom SAP-based tags
+- Running multiple containers with different port mappings
+- Comparing Ubuntu vs Alpine image size and performance
+- Understanding lightweight container optimization
+
+Key Implementation:
+- Official NGINX container → Port 8080
+- Ubuntu-based custom container → Port 8081
+- Alpine-based custom container → Port 8082
+
+Link:
+[Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)](./Experiment-3/)
+
 
 ## Class Practicals Included
 
