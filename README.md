@@ -62,8 +62,7 @@ This experiment demonstrates:
 - Containerized service execution  
 - Architectural differences in isolation and performance  
 
-Link:  
-[Experiment 1 — Virtual Machines vs Containers](./Experiment-1/)
+Link: [Experiment 1 — Virtual Machines vs Containers](./Experiment-1/)
 
 ---
 
@@ -76,8 +75,7 @@ This experiment covers the fundamentals of Docker including:
 - Resolving port conflicts  
 - Container start/stop/remove lifecycle commands  
 
-Link:  
-[Experiment 2 — Docker Installation & Container Lifecycle](./Experiment-2/)
+Link: [Experiment 2 — Docker Installation & Container Lifecycle](./Experiment-2/)
 
 ### Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)
 This experiment focuses on building custom Docker images using different Linux base images and deploying NGINX inside containers.
@@ -98,8 +96,7 @@ Key Implementation:
 - Ubuntu-based custom container → Port 8081
 - Alpine-based custom container → Port 8082
 
-Link:
-[Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)](./Experiment-3/)
+Link: [Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)](./Experiment-3/)
 
 
 ## Class Practicals Included
