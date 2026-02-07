@@ -99,7 +99,6 @@ Key Implementation:
 - Alpine-based custom container → Port 8082
 
 Link:
-
 [Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)](./Experiment-3/)
 
 
