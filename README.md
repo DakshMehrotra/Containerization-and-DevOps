@@ -215,7 +215,7 @@ A hands-on practical session focused on compiling and running a containerized C 
 - Multi-Language Containerized Development Workflow
 
 Link:
-[Class Practical 6 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Assignment%20Readme.md)
+[Class Practical 6 Feb Assignment](./Class Practical/6 Feb Assignment Readme.md)
 
 
 
