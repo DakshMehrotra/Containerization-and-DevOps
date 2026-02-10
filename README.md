@@ -236,7 +236,7 @@ A hands-on practical session focused on compiling and running a containerized C 
 Link:
 [Class Practical 6 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Assignment%20Readme.md)
 
-### ### Class Practical — 10 Feb (C Application Containerization & Optimization)
+### Class Practical — 10 Feb (C Application Containerization & Optimization)
 A hands-on practical series focused on building, running, and optimizing containerized C applications using Docker. This included runtime execution using volume mounts and production-level image optimization using multi-stage builds and minimal scratch runtime images. The practical demonstrated real-world container development workflows through implementation using:
 - Official Docker Base Images (Ubuntu, GCC Toolchain)
 - Containerized C Program Compilation and Execution
