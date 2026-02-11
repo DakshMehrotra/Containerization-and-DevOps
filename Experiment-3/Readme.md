@@ -13,6 +13,11 @@ This experiment demonstrates how to:
 - Run containers with port mapping
 - Compare image size and performance differences
 - Verify container output through browser
+- Docker Image Layer Analysis
+- Image Size Comparison Table
+- Performance and Security Comparison
+- Real World Use of NGINX Containers
+- Optional: Custom HTML or Flask Deployment
 
 ## Requirements
 Software Required
@@ -140,6 +145,14 @@ All screenshots captured during experiment execution are attached below:
 - This experiment demonstrated how custom Docker images can be built using different base images.
 - Ubuntu-based images provide flexibility and full Linux environment support, while Alpine-based images are lightweight and efficient.
 - Docker enables efficient application deployment, faster builds, and better resource utilization, making it essential for modern DevOps and microservices architecture.
+
+| Feature  | Ubuntu              | Alpine                 |
+| -------- | ------------------- | ---------------------- |
+| Size     | Large               | Very Small             |
+| Security | More attack surface | Smaller attack surface |
+| Speed    | Slower pull         | Faster pull            |
+| Tools    | Full OS tools       | Minimal tools          |
+
 
 ## References
 Docker Official Documentation:
