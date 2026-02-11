@@ -1,4 +1,5 @@
-<img width="1440" height="900" alt="Screenshot 2026-02-11 at 11 41 08 AM" src="https://github.com/user-attachments/assets/34c2a697-3719-4ef9-bca1-8e9bb63920a2" /><img width="1440" height="900" alt="Screenshot 2026-02-11 at 11 35 04 AM 1" src="https://github.com/user-attachments/assets/3307ea06-65c5-4d0a-bd66-6f0e527100db" />## Volume Management & Data Persistence Using Named Volumes and Bind Mounts
+## Volume Management & Data Persistence Using Named Volumes and Bind Mounts
+
 ## Objective
 The objective of this practical is to:
 - Understand Docker storage architecture
