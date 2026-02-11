@@ -1,5 +1,4 @@
-## Title
-**Docker Setup, Verification, and Running Ubuntu Container on macOS**
+## Docker Setup, Verification, and Running Ubuntu Container on macOS**
 
 ---
 
