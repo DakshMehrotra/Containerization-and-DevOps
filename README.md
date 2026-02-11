@@ -252,6 +252,65 @@ A hands-on practical series focused on building, running, and optimizing contain
 Link:
 [Class Practical 10 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/10%20Feb%20Readme.md)
 
+### Class Practical — 10 Feb Assignment (Multi-Stage Build for Java Application with Secure Runtime Container)
+A hands-on practical session focused on implementing enterprise-grade Docker container build workflows using multi-stage builds for Java applications. This practical demonstrated real-world production container optimization by separating build and runtime environments, reducing image size, and improving container security using non-root user implementation through execution using:
+- Docker Engine & Environment Verification (docker --version, docker ps, docker images)
+- Java Project Structure Creation Using Maven Standards
+- Java Application Compilation Using Maven Build Tool
+- Multi-Stage Dockerfile Implementation (Builder Stage + Runtime Stage)
+- Builder Environment Using Maven + OpenJDK for Application Compilation
+- Runtime Environment Using Production-Ready Eclipse Temurin JRE Base Image
+- Copying Only Compiled Application Artifacts (JAR) to Runtime Container
+- Secure Container Execution Using Non-Root User Configuration
+- Docker Image Build Using Multi-Stage Optimization
+- Docker Image Size Verification and Runtime Optimization Comparison 
+- Running Java Application Inside Optimized Runtime Container
+- Docker Image Layer Analysis Using docker history Command
+- Understanding Builder Layer Removal in Final Runtime Image
+- BuildKit Layer Caching and Container Layer Optimization Understanding
+- Production Container Security and Enterprise Container Design Workflow
+
+Link:
+[Class Practical 10 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/10%20Feb%20Assignment%20Readme.md)
+
+
+### Class Practical — 11 Feb (Docker Volume Management & Data Persistence)
+A hands-on practical session focused on implementing Docker storage mechanisms using named volumes and bind mounts to enable persistent data management between host and container environments. This practical demonstrated real-world container storage workflows through implementation using:
+- Docker Engine & Environment Verification (docker info, docker images)
+- Docker Named Volume Creation and Management
+- Docker Volume Listing and Inspection
+- Running Containers with Named Volumes
+- Container ↔ Volume Data Persistence Testing
+- Writing and Reading Files Inside Container Storage
+- Bind Mount Implementation (Host Directory ↔ Container Directory Mapping)
+- Runtime File Creation and Host-Level Verification
+- Temporary Container Execution using --rm
+- Linux File System Navigation Inside Containers
+- Container Data Lifecycle and Persistence Understanding
+- Real-World DevOps Storage Workflow Implementation
+Link:
+[Class Practical 11 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/11%20Feb%20Readme.md)
+
+
+### Class Practical — 11 Feb Assignment (Volume Backup, Restore & Inspection Using TAR & Named Volumes)
+A hands-on practical session focused on implementing advanced Docker storage management by performing volume data backup, restoration, and inspection using TAR-based archival and named Docker volumes. This practical demonstrated real-world container storage backup and disaster recovery workflows through implementation using:
+- Docker Engine & Environment Verification (docker --version, docker info, docker volume ls)
+- Docker Named Volume Creation and Management
+- Running Containers with Named Volumes for Persistent Storage
+- Writing and Verifying Data Inside Docker Volume Storage
+- Volume Data Backup Using TAR Archive Utility
+- Bind Mount Backup Directory Implementation (Host ↔ Container Mapping)
+- Volume Deletion to Simulate Production Data Loss Scenario
+- Volume Recreation and Data Restoration from Backup Archive
+- Restored Data Verification Inside Container Environment
+- Docker Volume Metadata Inspection Using docker volume inspect
+- Backup Storage Size Verification Using Linux Disk Usage Commands
+- Understanding Docker Volume Mountpoints and Storage Locations
+- Container Storage Backup and Disaster Recovery Workflow Simulation
+- Real-World DevOps Storage Backup and Recovery Implementation
+Link:
+[Class Practical 11 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/11%20Feb%20Assignment%20Readme.md)
+
 
 
 
