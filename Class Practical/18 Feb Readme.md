@@ -148,6 +148,9 @@ This checks which process is using port 80.
 <img width="1440" height="44" alt="Screenshot 2026-02-18 at 11 50 27 AM" src="https://github.com/user-attachments/assets/28420ef0-b97f-45cb-94a1-0681655b29c8" />
 <img width="1440" height="201" alt="Screenshot 2026-02-18 at 11 51 16 AM" src="https://github.com/user-attachments/assets/ea2692eb-6fdb-465c-8a8d-ad9584a66523" />
 
+## Result 
+- Gained practical understanding of Docker networking architecture, container communication mechanisms, and how custom bridge networks enable automatic DNS-based service discovery in containerized environments.
+
 ## Conclusion
 This practical demonstrates core Docker networking concepts including:
 - Bridge networking
