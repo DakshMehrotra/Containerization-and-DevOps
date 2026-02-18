@@ -314,6 +314,21 @@ Link:
 [Class Practical 12 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/12%20Feb%20Readme.md)
 
 
+### Class Practical — 18 Feb (Docker Networking — Bridge, Custom Network & Container Communicatione)
+This class focused on understanding Docker networking concepts by working with default bridge networks, creating custom user-defined bridge networks, and enabling inter-container communication.
+- Inspected default Docker networks (bridge, host, none)
+- Analyzed network configuration using docker network inspect
+- Created a custom bridge network (my_bridge)
+- Launched multiple containers (nginx, busybox) inside the same network
+- Verified container-to-container communication using ping
+- Inspected container network settings and IP assignments
+- Tested host network mode behavior
+- Observed networking differences between default and user-defined bridge networks
+
+Link:
+[Class Practical 18 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Feb%20Readme.md)
+
+
 
 
 ---
