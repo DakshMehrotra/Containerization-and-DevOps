@@ -91,6 +91,7 @@ In host mode:
 - Container shares host network stack
 - No separate IP
 No port mapping required
+
 - ⚠️ On macOS, host networking behaves differently because Docker runs inside a VM.
 
 ### Step 9 : Check Port Usage (macOS)
