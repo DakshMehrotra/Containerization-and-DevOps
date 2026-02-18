@@ -311,6 +311,22 @@ A hands-on practical session focused on implementing advanced Docker storage man
 - Real-World DevOps Storage Backup and Recovery Implementation
   
 Link:
+[Class Practical 11 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/11%20Feb%20Assignment%20Readme.md)
+
+### Class Practical — 12 Feb (Docker Volumes, Bind Mounts, tmpfs & MySQL Persistence)
+This class focused on understanding Docker storage mechanisms by working with named volumes, bind mounts, and tmpfs mounts, along with implementing persistent storage for a MySQL container.
+- Verified Docker setup using docker info
+- Created a named Docker volume (myvolume)
+- Ran a MySQL container with volume-based persistent storage
+- Stopped and removed the container to verify data persistence
+- Re-ran MySQL using the same volume to confirm database recovery
+- Inspected volume details using docker volume inspect
+- Implemented Bind Mount with NGINX for live file sharing
+- Demonstrated tmpfs mount for temporary in-memory storage
+- Compared Volume vs Bind Mount vs tmpfs behavior
+
+
+Link:
 [Class Practical 12 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/12%20Feb%20Readme.md)
 
 
