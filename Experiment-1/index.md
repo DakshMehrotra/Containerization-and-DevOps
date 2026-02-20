@@ -1,7 +1,8 @@
 #  Experiment 1: VM vs Containers using Ubuntu & Nginx 
 
 ## Dated : 
-24th Jan 2026
+> 24th Jan 2026, due to some error on MAC OS. I have performed this experiment on my friends laptop and took photos for the experiment snd uploaded it here in the readme file.
+Therefore, the experiment is performed by me but on her Laptop 
 
 ##  Objective
 The objective of this experiment is to understand, implement, and compare:
