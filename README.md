@@ -344,6 +344,27 @@ This class focused on understanding Docker networking concepts by working with d
 Link:
 [Class Practical 18 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Feb%20Readme.md)
 
+### Class Practical — 20 Feb (Docker Swarm & Advanced Networking Lab — Bridge, Overlay, Services & Macvlan)
+This lab focused on understanding Docker networking from basic container communication to advanced Swarm-based networking, including overlay networks, service scaling, and macvlan configuration.
+- Created a custom bridge network (my_app_net)
+- Launched multiple containers (nginx, alpine) inside the same network
+- Verified container-to-container communication using ping and wget
+- Initialized Docker Swarm using docker swarm init
+- Created an attachable overlay network (my_overlay)
+- Deployed standalone containers inside overlay network and tested connectivity
+- Created a Docker service (web) and exposed it on port 8080
+- Scaled service to 4 replicas using docker service scale
+- Inspected running services and tasks using docker service ls and docker service ps
+- Created a production overlay network (prod_net)
+- Configured a macvlan network with custom subnet and gateway
+- Assigned a static IP to a container using macvlan
+- Tested external connectivity using curl
+- Troubleshot port conflicts and active endpoint issues
+- Compared bridge, overlay, host, and macvlan networking behavior
+
+Link:
+[Class Practical 20 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/20%20Feb%20Readme.md)
+
 
 
 
