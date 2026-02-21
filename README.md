@@ -99,6 +99,26 @@ Key Implementation:
 Link: [Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)](./Experiment-3/)
 
 
+### Experiment 4 - Containerization using Dockerfile, .dockerignore, Tagging & Publishing
+The experiment was successfully completed by containerizing both a Python Flask application and a Node.js Express application using Docker. The following outcomes were achieved:
+
+- Docker images were built successfully using custom Dockerfile.
+- .dockerignore was implemented to optimize image size and security.
+- Containers were executed with proper port mapping.
+- Multi-stage build was implemented to optimize production image size.
+- Docker images were successfully tagged and published to Docker Hub.
+- The published image was pulled and executed successfully from Docker Hub.
+- Both applications were accessible via browser:
+- Flask App → http://localhost:5001
+- Node App → http://localhost:3000
+- The Docker workflow from build → run → tag → push → pull → run was validated successfully.
+
+Link: [Experiment 4 - Containerization using Dockerfile, .dockerignore, Tagging & Publishing](./Experiment-4/)
+
+
+
+
+
 ## Class Practicals Included
 
 ### Class Practical — 21 January (DevOps Fundamentals & Setup)
