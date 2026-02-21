@@ -16,13 +16,15 @@ This experiment demonstrates:
 
 ## Part 1 – Flask Application (Python)
 Project Structure
+
 my-flask-app/
 │── app.py
 │── requirements.txt
 │── Dockerfile
 │── .dockerignore
 
-- app.py
+### app.py
+
 from flask import Flask
 app = Flask(__name__)
 
@@ -37,10 +39,10 @@ def health():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
-- requirements.txt
+### requirements.txt
 Flask==2.3.3
 
-- Dockerfile
+### Dockerfile
 FROM python:3.9-slim
 
 WORKDIR /app
@@ -68,7 +70,7 @@ __pycache__/
 - Improves build speed
 - Prevents sensitive files from being copied
 
-- Build Image
+### Build Image
 - docker build -t my-flask-app:1.0 .
 ### Run Container
 - docker run -d -p 5001:5000 --name flask-container my-flask-app:1.0
@@ -117,7 +119,7 @@ my-node-app/
 │── package.json
 │── Dockerfile
 
-- app.js
+### app.js
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -144,7 +146,7 @@ app.listen(port, () => {
   }
 }
 
-- Dockerfile
+### Dockerfile
 FROM node:18-alpine
 
 WORKDIR /app
