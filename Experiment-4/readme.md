@@ -22,7 +22,7 @@ my-flask-app/
 │── Dockerfile
 │── .dockerignore
 
-### app.py
+- app.py
 from flask import Flask
 app = Flask(__name__)
 
@@ -37,10 +37,10 @@ def health():
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 
-### requirements.txt
+- requirements.txt
 Flask==2.3.3
 
-### Dockerfile
+- Dockerfile
 FROM python:3.9-slim
 
 WORKDIR /app
@@ -63,20 +63,20 @@ __pycache__/
 .git/
 .DS_Store
 
-#### Why .dockerignore?
+### Why .dockerignore?
 - Reduces image size
 - Improves build speed
 - Prevents sensitive files from being copied
 
-### Build Image
+- Build Image
 - docker build -t my-flask-app:1.0 .
 ### Run Container
 - docker run -d -p 5001:5000 --name flask-container my-flask-app:1.0
 ### Open in browser:
 - http://localhost:5001
 
-### Multi-stage Build (Optimized Image)
-# Stage 1
+- Multi-stage Build (Optimized Image)
+### Stage 1
 FROM python:3.9-slim AS builder
 WORKDIR /app
 COPY requirements.txt .
@@ -84,7 +84,7 @@ RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Stage 2
+### Stage 2
 FROM python:3.9-slim
 WORKDIR /app
 COPY --from=builder /opt/venv /opt/venv
@@ -100,7 +100,7 @@ CMD ["python", "app.py"]
 - Improved security
 - Separation of build and runtime
 
-## Publishing to Docker Hub
+### Publishing to Docker Hub
 Login:
 - docker login
 Tag:
@@ -117,7 +117,7 @@ my-node-app/
 │── package.json
 │── Dockerfile
 
-### app.js
+- app.js
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -144,7 +144,7 @@ app.listen(port, () => {
   }
 }
 
-### Dockerfile
+- Dockerfile
 FROM node:18-alpine
 
 WORKDIR /app
