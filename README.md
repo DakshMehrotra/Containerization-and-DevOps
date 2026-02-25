@@ -386,7 +386,16 @@ Link:
 [Class Practical 20 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/20%20Feb%20Readme.md)
 
 
+### Class Practical — 25 Feb (Docker Compose – Nginx & WordPress with MySQL)
+This class practical successfully demonstrated the working of Docker Compose for both single-container and multi-container applications. Using Docker Compose:
+- Multiple services can be managed using a single YAML file.
+- Networking between containers is automatically handled.
+- Persistent storage can be managed easily using volumes.
+- Full application stack (WordPress + MySQL) can be deployed with a single command.
+- Docker Compose makes container orchestration simple, structured, and efficient for real-world application deployment.
 
+Link:
+[Class Practical 25 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/25%20Feb%20Readme.md)
 
 ---
 
