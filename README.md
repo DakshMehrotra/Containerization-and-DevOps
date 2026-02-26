@@ -397,6 +397,18 @@ This class practical successfully demonstrated the working of Docker Compose for
 Link:
 [Class Practical 25 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/25%20Feb%20Readme.md)
 
+
+### Class Practical — 26 Feb (Scaling Services using Docker Compose)
+This experiment demonstrated how Docker Compose can scale services easily using the --scale flag.
+- It also highlighted important practical constraints:
+- Each container must have a unique name.
+- Only one container can bind to a specific host port.
+- Scaling backend services usually requires a load balancer.
+- Docker Compose simplifies multi-container orchestration and service replication, making it useful for real-world distributed application deployment.
+
+Link:
+[Class Practical 26 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/26%20Feb%20Readme.md)
+
 ---
 
 ## Topics Covered
