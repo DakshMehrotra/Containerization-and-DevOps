@@ -113,9 +113,19 @@ The experiment was successfully completed by containerizing both a Python Flask 
 - Node App → http://localhost:3000
 - The Docker workflow from build → run → tag → push → pull → run was validated successfully.
 
-Link: [Experiment 4 - Containerization using Dockerfile, .dockerignore, Tagging & Publishing](./Experiment-4/)
+Link: [Experiment 4 - Docker Networking, Volumes & Environment Variables Lab](./Experiment-4/)
 
+### Experiment 5 - Containerization using Dockerfile, .dockerignore, Tagging & Publishing
+- All objectives of Experiment 5 were successfully completed.
+The experiment demonstrated a practical understanding of:
+- Docker networking architecture
+- Persistent storage management
+- Secure configuration handling using environment variables
+- Runtime configuration override
+- Container monitoring and debugging tools
+- The implementation validates correct container orchestration principles and production-ready configuration practices.
 
+Link: [Experiment 5 - Docker Networking, Volumes & Environment Variables Lab](./Experiment-5/)
 
 
 
