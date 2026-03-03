@@ -213,7 +213,7 @@ Displays real-time container lifecycle events.
 <img width="1440" height="545" alt="Screenshot 2026-02-28 at 9 20 11 AM" src="https://github.com/user-attachments/assets/bf9834d2-63b7-4fe2-9bdb-a0b379a5cdb1" />
 
 
-## Result
+## Result 
 The experiment demonstrated a practical understanding of:
 - Docker networking architecture
 - Persistent storage management
