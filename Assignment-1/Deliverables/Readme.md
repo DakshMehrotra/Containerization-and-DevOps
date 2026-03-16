@@ -14,7 +14,7 @@ The repository contains:
 * Project documentation
 
 🔗 **GitHub Repository:**
-[Containerized Web Application Project](https://github.com/rajrishu1401/ContainerizationAndDevOPsLab/tree/main/Assignment/Assignment1)
+[Containerized Web Application Project](https://github.com/DakshMehrotra/Containerization-and-DevOps/tree/main/Assignment-1)
 
 ---
 
