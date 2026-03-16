@@ -319,11 +319,9 @@ A **completion ring** visually displays the percentage of tasks completed.
 
 # Health Check
 
-The frontend also provides a **Health Check button**.
+The backend also provides a **Health Check get request**.
 
-When clicked:
-
-Frontend → sends request to backend `/health` endpoint.
+when requested , it return 'ok' if backend is UP.
 
 Expected response:
 
@@ -374,7 +372,7 @@ Verify previously inserted data still exists.
 
 Check image sizes:
 
-Create one stack with Alpine and multi-stage dockerfile named as opimizedsize_backend and other with no Alpine and single-stage named as normal_backend.
+Create one stack with Alpine and multi-stage dockerfile named as assignment1_backend and other with no Alpine and single-stage named as <none>.
 
 ```
 docker images
@@ -382,7 +380,7 @@ docker images
 
 ![size](images/size.png)
 
-We can see that opimizedsize_backend has less size than normal_backend.
+We can see that opimizedsize_backend has less size than <none>.
 
 ---
 
