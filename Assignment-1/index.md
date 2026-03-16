@@ -183,8 +183,8 @@ Example request:
 
 ```json
 {
-"name":"Rishu",
-"email":"rajrishu1401@gmail.com"
+"name":"Daksh",
+"email":"mehrotradaksh2005@gmai.com"
 }
 ```
 
@@ -202,8 +202,8 @@ Response
 [
  {
   "id":1,
-  "name":"Rishu",
-  "email":"rajrishu1401@gmail.com"
+  "name":"Daksh",
+  "email":"mehrotradaksh2005@gmail.com"
  }
 ]
 ```
