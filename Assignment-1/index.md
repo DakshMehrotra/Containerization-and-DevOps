@@ -380,7 +380,7 @@ docker images
 
 ![size](images/size.png)
 
-We can see that opimizedsize_backend has less size than <none>.
+We can see that assignment1_backend has less size than <none>.
 
 ---
 
