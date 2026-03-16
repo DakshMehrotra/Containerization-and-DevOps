@@ -5,10 +5,10 @@
 This project demonstrates a **containerized full-stack web application** using Docker.
 It includes a **frontend, backend API, and PostgreSQL database**, orchestrated with **Docker Compose** and connected through an **IPVLAN network with static IP addresses**.
 
-The project also demonstrates **Docker image optimization techniques**, comparing:
+The project demonstrates **Docker image optimization techniques**, comparing:
 
 * Optimized build (Alpine + Multi-stage)
-* Non-optimized build (Standard images)
+* Non-optimized build (Standard images) -> Just for backend image 
 
 This project fulfills the requirements of the **Containerization and DevOps assignment**.
 
