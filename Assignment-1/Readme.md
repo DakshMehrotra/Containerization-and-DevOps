@@ -173,38 +173,40 @@ Response
 
 ---
 
-### Insert User
+### Insert Task
 
 ```
-POST /users
+POST /tasks
 ```
 
 Example request:
 
 ```json
 {
-"name":"Daksh",
-"email":"mehrotradaksh2005@gmai.com"
+  "title": "Finish DevOps assignment",
+  "priority": "medium"
 }
 ```
 
 ---
 
-### Fetch Users
+### Fetch Tasks
 
 ```
-GET /users
+GET /tasks
 ```
 
 Response
 
 ```json
-[
- {
-  "id":1,
-  "name":"Daksh",
-  "email":"mehrotradaksh2005@gmail.com"
- }
+GET /tasks[
+  {
+    "id": 1,
+    "title": "Finish DevOps assignment",
+    "priority": "medium",
+    "status": "todo",
+    "created_at": "2026-03-15T10:30:00.000Z"
+  }
 ]
 ```
 
@@ -220,36 +222,100 @@ Open the frontend in a browser:
 
 http://172.24.10.30
 
-The interface allows users to:
+The interface provides a **Kanban-style task management board** that allows users to manage tasks visually.
 
-• Add new user records  
-• View stored user records  
-• Check backend health status  
+Users can:
+
+• Create new tasks  
+• Assign task priority (Low, Medium, High)  
+• View tasks organized in a Kanban board  
+• Move tasks between **Todo, In Progress, and Done**  
+• Delete tasks  
+• Search tasks  
+• Filter tasks by **priority or status**  
+• View real-time task statistics and completion rate  
 
 ---
 
-# Adding Data Through Frontend
+# Creating a Task
 
 Steps:
 
 1. Open the frontend page.
-2. Enter **Name** and **Email** in the input fields.
-3. Click **Add User**.
-4. The request is sent to the backend API.
-5. The backend stores the data in the PostgreSQL database.
+2. Enter a task description in the **task input field**.
+3. Select a **priority level**:
+   - Low
+   - Medium
+   - High
+4. Click the **+ ADD** button.
+5. The frontend sends a **POST request** to the backend API.
+6. The backend stores the task in the PostgreSQL database.
+7. The task appears in the **Todo column**.
 
 ---
 
-# Fetching Stored Records
+# Updating Task Status
+
+Tasks can move through three workflow stages:
+
+• Todo  
+• In Progress  
+• Done  
 
 Steps:
 
-1. Click the **Refresh** button.
-2. The frontend sends a request to the backend.
-3. Backend retrieves records from PostgreSQL.
-4. Records are displayed on the page.
+1. Locate a task card on the board.
+2. Use the **status buttons on the card**.
+3. Select the desired status.
+4. The frontend sends a **PATCH request** to the backend API.
+5. The backend updates the task status in PostgreSQL.
+6. The UI refreshes and moves the task to the corresponding column.
 
 ---
+
+# Deleting a Task
+
+Steps:
+
+1. Locate the task card.
+2. Click the **delete (×) button**.
+3. The frontend sends a **DELETE request** to the backend API.
+4. The backend removes the task from PostgreSQL.
+5. The task disappears from the board.
+
+---
+
+# Searching and Filtering Tasks
+
+The interface supports dynamic filtering.
+
+Users can:
+
+• Search tasks using the **search bar**  
+• Filter tasks by **priority**:
+  - High
+  - Medium
+  - Low
+
+• Filter tasks by **status**:
+  - Todo
+  - In Progress
+  - Done
+
+The frontend sends filtered requests to the backend API and updates the board dynamically.
+
+---
+
+# Task Statistics Dashboard
+
+The sidebar provides real-time task statistics including:
+
+• Total tasks  
+• High priority tasks  
+• Pending tasks  
+• Completed tasks  
+
+A **completion ring** visually displays the percentage of tasks completed.
 
 # Health Check
 
