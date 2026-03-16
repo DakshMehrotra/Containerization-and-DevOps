@@ -41,6 +41,7 @@ It includes:
 - Output screenshots  
 - Observations and conclusions  
 - Notes for concept understanding  
+- Assignments
 
 ---
 
@@ -127,6 +128,20 @@ The experiment demonstrated a practical understanding of:
 
 Link: [Experiment 5 - Docker Networking, Volumes & Environment Variables Lab](./Experiment-5/)
 
+
+
+## Assignments Included
+
+### Assignment 1 - Containerized Web Application with PostgreSQL using Docker Compose and IPVLAN
+- Containerized web application service
+- PostgreSQL database container
+- Service orchestration using Docker Compose
+- Custom IPVLAN network configuration
+- Persistent database storage using volumes
+- Isolated and efficient container networking
+- Easy setup and reproducible environment
+
+Link: [Assignment 1 - Containerized Web Application with PostgreSQL using Docker Compose and IPVLAN](./Assignment-1)
 
 
 ## Class Practicals Included
