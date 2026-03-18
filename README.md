@@ -446,8 +446,11 @@ The following outcomes were achieved:
 - Pod logs and details were verified using kubectl logs and kubectl describe.
 - All Kubernetes components worked correctly and the application was successfully deployed and managed inside the cluster.
 
+
 Link:
 [Class Practical 18 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Mar%20Readme.md)
+
+
 ---
 
 ## Topics Covered
