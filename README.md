@@ -434,16 +434,7 @@ This experiment demonstrated how Docker Compose can scale services easily using 
 Link:
 [Class Practical 26 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/26%20Feb%20Readme.md)
 
-### Class Practical — 26 Feb (Scaling Services using Docker Compose)
-This experiment demonstrated how Docker Compose can scale services easily using the --scale flag.
-- It also highlighted important practical constraints:
-- Each container must have a unique name.
-- Only one container can bind to a specific host port.
-- Scaling backend services usually requires a load balancer.
-- Docker Compose simplifies multi-container orchestration and service replication, making it useful for real-world distributed application deployment.
-
-Link:
-[Class Practical 18 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Mar%20Readme.md)
+### Class Practical — 18 Mar (Kubernetes Setup using k3d (Mac M1))
 The Kubernetes environment was successfully set up on Mac M1 using Docker, k3d, and kubectl.
 The following outcomes were achieved:
 - A local Kubernetes cluster (mycluster) was created using k3d.
@@ -454,6 +445,9 @@ The following outcomes were achieved:
 - The deployment was scaled to multiple replicas, demonstrating Kubernetes scaling capability.
 - Pod logs and details were verified using kubectl logs and kubectl describe.
 - All Kubernetes components worked correctly and the application was successfully deployed and managed inside the cluster.
+
+Link:
+[Class Practical 18 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Mar%20Readme.md)
 ---
 
 ## Topics Covered
