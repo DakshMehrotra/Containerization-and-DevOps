@@ -450,6 +450,21 @@ The following outcomes were achieved:
 Link:
 [Class Practical 18 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Mar%20Readme.md)
 
+### Class Practical — 19 Mar (Kubernetes Deployment & Service Exposure (k3d))
+This practical demonstrated:
+- Deployment creation
+- Pod management
+- Scaling of applications
+- Service exposure
+- Debugging using logs
+- Kubernetes successfully handled container orchestration and service management.
+
+
+Link:
+[Class Practical 19 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/19%20Mar%20readme.md)
+
+
+
 
 ---
 
