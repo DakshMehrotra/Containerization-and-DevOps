@@ -465,6 +465,20 @@ Link:
 
 
 
+### Class Practical — 20 Mar (Docker & Portainer Setup (Mac M1) – Practical)
+This practical demonstrated:
+- Limitations of Minikube on Mac M1
+- Docker container management
+- Deployment of Portainer for GUI-based management
+- Real-time monitoring of containers
+- Portainer simplifies Docker operations and provides an efficient interface for container orchestration.
+
+
+Link:
+[Class Practical 20 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/20%20Mar%20Readme.md)
+
+
+
 
 ---
 
