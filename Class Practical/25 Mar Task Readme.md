@@ -197,6 +197,26 @@ kubectl delete service apache
 ---
 
 ## Screenshots
+<img width="1440" height="405" alt="Screenshot 2026-03-25 at 11 20 35 AM" src="https://github.com/user-attachments/assets/638cab7d-efeb-423a-93ab-4585ae534c77" />
+<img width="1440" height="900" alt="Screenshot 2026-03-25 at 11 21 26 AM" src="https://github.com/user-attachments/assets/10a8c031-81e2-4c5b-bc7e-24b07cab6308" />
+<img width="1440" height="84" alt="Screenshot 2026-03-25 at 11 23 00 AM" src="https://github.com/user-attachments/assets/07bee9ac-6466-4eb7-b187-08558f0e9134" />
+<img width="1431" height="744" alt="Screenshot 2026-03-25 at 11 23 23 AM" src="https://github.com/user-attachments/assets/06cb797f-bfc2-44d1-8531-cd48629016ca" />
+<img width="1440" height="199" alt="Screenshot 2026-03-25 at 11 28 12 AM" src="https://github.com/user-attachments/assets/774ca3d2-bc3c-45a4-9a9b-e7254d13d000" />
+<img width="1435" height="83" alt="Screenshot 2026-03-25 at 11 29 22 AM" src="https://github.com/user-attachments/assets/b59a63ac-dd32-45f1-b6ed-f3c6771547ae" />
+<img width="1440" height="191" alt="Screenshot 2026-03-25 at 11 29 44 AM" src="https://github.com/user-attachments/assets/1cd51bce-906d-48ba-96e2-ef0f8d110e41" />
+<img width="1440" height="264" alt="Screenshot 2026-03-25 at 11 30 49 AM" src="https://github.com/user-attachments/assets/54680771-66b3-4754-a834-48896a00e041" />
+<img width="1430" height="783" alt="Screenshot 2026-03-25 at 11 30 57 AM" src="https://github.com/user-attachments/assets/667c9664-c563-4f55-abc3-7daf956ccbad" />
+<img width="1440" height="111" alt="Screenshot 2026-03-25 at 11 31 19 AM" src="https://github.com/user-attachments/assets/e525ebc0-394c-47e5-af94-c35b320d35d0" />
+<img width="1440" height="280" alt="Screenshot 2026-03-25 at 11 33 16 AM" src="https://github.com/user-attachments/assets/8a581eeb-aa39-45c5-8e72-b603c0330fdc" />
+<img width="1440" height="900" alt="Screenshot 2026-03-25 at 11 34 08 AM" src="https://github.com/user-attachments/assets/2b055ec7-dd43-4bb8-9c23-8891771e3ab1" />
+<img width="1440" height="140" alt="Screenshot 2026-03-25 at 11 35 16 AM" src="https://github.com/user-attachments/assets/3be6d56a-a47e-43e6-8828-e39146b9ab96" />
+<img width="1413" height="764" alt="Screenshot 2026-03-25 at 11 36 34 AM" src="https://github.com/user-attachments/assets/0b85e80a-042c-45e7-a918-2c70bc62dafc" />
+<img width="1440" height="138" alt="Screenshot 2026-03-25 at 11 37 42 AM" src="https://github.com/user-attachments/assets/b63730f8-9f9f-4ac1-85f9-c339068f5ce9" />
+<img width="1440" height="144" alt="Screenshot 2026-03-25 at 11 38 54 AM" src="https://github.com/user-attachments/assets/fecdf2f1-c773-4bce-a7c7-f76c2db97e0d" />
+<img width="1440" height="900" alt="Screenshot 2026-03-25 at 11 43 35 AM" src="https://github.com/user-attachments/assets/1d9770f7-6d99-495b-9435-7edfd2574c3a" />
+<img width="1440" height="900" alt="Screenshot 2026-03-25 at 11 44 58 AM" src="https://github.com/user-attachments/assets/7ea38e30-e0d1-4b94-be90-8473cf419eff" />
+<img width="1440" height="105" alt="Screenshot 2026-03-25 at 11 45 24 AM" src="https://github.com/user-attachments/assets/61ba3b27-002c-4160-ac3b-b6becd611071" />
+<img width="1440" height="282" alt="Screenshot 2026-03-25 at 11 47 18 AM" src="https://github.com/user-attachments/assets/959ed1c3-599a-46ce-a2cd-20b66a9b8251" />
 
 
 ## Key Learnings
