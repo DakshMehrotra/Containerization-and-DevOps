@@ -478,6 +478,17 @@ Link:
 [Class Practical 20 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/20%20Mar%20Readme.md)
 
 
+### ### Class Practical — 25 Mar Task (Apache Web App)
+This practical demonstrates:
+- Apache app successfully deployed
+- Accessed via browser
+- Scaled to multiple replicas
+- Debugged broken deployment
+- Modified live container content
+
+Link:
+[Class Practical 25 Mar Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/25%20Mar%20Task%20Readme.md)
+
 
 
 ---
