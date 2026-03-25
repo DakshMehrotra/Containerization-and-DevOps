@@ -1,0 +1,224 @@
+# Kubernetes Container Practical — Apache Web App
+
+> A **hands-on Kubernetes practical** where I deployed, managed, scaled, debugged, and modified a containerized Apache web server.  
+> Pure CLI. Real understanding. No shortcuts. 
+
+---
+
+## Objective
+
+- Deploy a simple Apache (`httpd`) web server
+- Verify it is running and accessible via browser
+- Convert Pod → Deployment
+- Expose it using a Service
+- Scale it horizontally
+- Break it intentionally and fix it
+- Modify live content inside the container
+
+---
+
+## Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Kubernetes (k3d cluster) | Container orchestration |
+| Docker | Container runtime |
+| `kubectl` CLI | Cluster management |
+| Apache `httpd` image | Web server |
+
+---
+
+## Step-by-Step Execution
+
+### 1. Create a Pod
+
+```bash
+kubectl run apache-pod --image=httpd
+```
+
+Check status:
+
+```bash
+kubectl get pods
+```
+
+---
+
+### 2. Verify Pod Details
+
+```bash
+kubectl describe pod apache-pod
+```
+
+---
+
+### 3. Access the Application (Port Forward)
+
+```bash
+kubectl port-forward pod/apache-pod 8081:80
+```
+
+Open in browser → `http://localhost:8081`
+
+**Output:** `It works!`
+
+---
+
+### 4. Delete the Pod
+
+```bash
+kubectl delete pod apache-pod
+```
+
+---
+
+### 5. Create a Deployment
+
+```bash
+kubectl create deployment apache --image=httpd
+```
+
+Verify:
+
+```bash
+kubectl get deployments
+kubectl get pods
+```
+
+---
+
+### 6. Expose the Deployment
+
+```bash
+kubectl expose deployment apache --port=80 --type=NodePort
+```
+
+---
+
+### 7. Access via Service
+
+```bash
+kubectl port-forward service/apache 8082:80
+```
+
+Open → `http://localhost:8082`
+
+---
+
+### 8. Scale the Application
+
+```bash
+kubectl scale deployment apache --replicas=2
+```
+
+Check:
+
+```bash
+kubectl get pods
+```
+
+Now running multiple pods!
+
+---
+
+### 9. Break the Deployment (Debugging Practice)
+
+```bash
+kubectl set image deployment/apache httpd=wrongimage
+```
+
+Check:
+
+```bash
+kubectl get pods
+```
+
+**Error:** `ErrImagePull`
+
+---
+
+### 10. Fix the Issue
+
+```bash
+kubectl set image deployment/apache httpd=httpd
+```
+
+---
+
+### 11. Modify Website Content
+
+Enter the container:
+
+```bash
+kubectl exec -it <pod-name> -- /bin/bash
+```
+
+Edit the file:
+
+```bash
+echo "Hello from Kubernetes" > /usr/local/apache2/htdocs/index.html
+```
+
+Exit the container:
+
+```bash
+exit
+```
+
+Refresh browser → **Updated output visible!**
+
+---
+
+### 12. Test Self-Healing
+
+Delete a pod:
+
+```bash
+kubectl delete pod <pod-name>
+```
+
+Check:
+
+```bash
+kubectl get pods
+```
+
+💡 **Kubernetes automatically creates a new pod!**
+
+---
+
+### 13. Cleanup
+
+```bash
+kubectl delete deployment apache
+kubectl delete service apache
+```
+
+---
+
+## Screenshots
+
+
+## Key Learnings
+
+- **Pods are temporary** — Deployments are managed and self-healing
+- **Kubernetes provides self-healing** — deleted pods are automatically replaced
+- **Scaling is 1 command away** — `kubectl scale` makes it trivial
+- **Debugging is a core skill** — `describe`, `logs`, and `get` are your best friends
+- **Services expose internal apps** — NodePort, ClusterIP, LoadBalancer
+- **Port-forward is useful for local testing** — no need to expose publicly during dev
+
+---
+
+## Final Result
+
+| Task | Status |
+|------|--------|
+| Apache app deployed | Done |
+| Accessed via browser | Done |
+| Scaled to multiple replicas | Done |
+| Debugged broken deployment | Done |
+| Modified live container content | Done |
+| Self-healing verified | Done |
+
+---
