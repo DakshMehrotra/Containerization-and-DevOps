@@ -132,7 +132,7 @@ Open in browser:
 http://localhost:8080
 ```
 
-👉 Output: Default NGINX Welcome Page
+ Output: Default NGINX Welcome Page
 
 ---
 
@@ -153,7 +153,7 @@ kubectl delete deployment web
 
 ---
 
-## Screenshot
+## Screenshots
 <img width="1440" height="900" alt="Screenshot 2026-03-27 at 10 30 19 PM" src="https://github.com/user-attachments/assets/bc9ca8c8-9809-4a16-b115-2f40cb09e3f4" />
 <img width="1439" height="288" alt="Screenshot 2026-03-27 at 10 30 27 PM" src="https://github.com/user-attachments/assets/5dbd9487-8328-48af-a15b-cfa946288e06" />
 <img width="1440" height="694" alt="Screenshot 2026-03-27 at 10 30 57 PM" src="https://github.com/user-attachments/assets/6a73b3f3-deb1-4ad1-bd0e-9dab8e6bc032" />
