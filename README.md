@@ -490,6 +490,18 @@ Link:
 [Class Practical 25 Mar Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/25%20Mar%20Task%20Readme.md)
 
 
+### Class Practical — 27 Mar Task (Imperative vs Declarative Deployment)
+ This Practical demonstrates:
+- Deployment created successfully
+- Pods were running correctly
+- Application accessible via browser
+- Scaling operation verified
+
+Link:
+Class Practical 27 Mar Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/27%20Mar%20Task%20Readme.md)
+
+
+
 
 ---
 
