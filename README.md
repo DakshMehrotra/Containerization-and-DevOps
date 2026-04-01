@@ -501,6 +501,19 @@ Link:
 [Class Practical 27 Mar Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/27%20Mar%20Task%20Readme.md)
 
 
+### Class Practical — 1 Apr (Jenkins on Docker)
+This class practical successfully demonstrates the deployment of Jenkins inside a Docker container on Apple Silicon hardware. By leveraging Docker's multi-platform support and Docker Compose for service orchestration, a production-ready Jenkins CI/CD server was configured with minimal infrastructure overhead.
+
+- Docker images may not natively support ARM architecture; the `platform` flag enables emulation
+- Port conflicts are common in local development setups and can be resolved by remapping host ports
+- Named volumes ensure Jenkins data persistence across container lifecycles
+- Jenkins initial setup is straightforward, but debugging container and networking issues requires familiarity with Docker fundamentals
+
+
+Link:
+[Class Practical 1 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/1%20Apr%20Readme.md)
+
+
 
 
 ---
