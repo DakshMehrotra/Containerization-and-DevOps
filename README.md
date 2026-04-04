@@ -128,6 +128,17 @@ The experiment demonstrated a practical understanding of:
 
 Link: [Experiment 5 - Docker Networking, Volumes & Environment Variables Lab](./Experiment-5/)
 
+### Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub
+- All objectives of Experiment 7 were successfully completed.
+The experiment demonstrated a practical understanding of:
+- Jenkins GUI simplifies CI/CD pipeline management
+- GitHub acts as both source repository and pipeline definition store
+- Docker ensures consistent and reproducible builds
+- Webhook enables fully automated build and deployment
+- Mac M1 (ARM64) requires a custom Jenkins image with native Docker CLI
+
+Link: [Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Experiment-7/)
+
 
 
 ## Assignments Included
