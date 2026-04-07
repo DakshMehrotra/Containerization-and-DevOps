@@ -1,6 +1,5 @@
 # Docker Code – Git & GitHub SSH Setup
 
-**Author:** Daksh Mehrotra  
 **Date:** April 7, 2026  
 **GitHub:** [DakshMehrotra](https://github.com/DakshMehrotra)  
 **Repository:** `Docker-code-7-apr-` (Private)
