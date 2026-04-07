@@ -525,6 +525,16 @@ Link:
 [Class Practical 1 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/1%20Apr%20Readme.md)
 
 
+### Class Practical — 7 Apr (Git & GitHub SSH Setup)
+This project documents the end-to-end process of setting up Git version control and GitHub SSH authentication on a Mac, creating a local repository, working with branches, and pushing code to a remote GitHub repository.
+
+- The repository is set to Private on GitHub.
+- SSH authentication was used instead of HTTPS for secure, password-free pushes.
+- The feature-branch contains authentication feature work.
+
+Link:
+[Class Practical 7 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/7%20Apr%20Readme.md)
+
 
 
 ---
