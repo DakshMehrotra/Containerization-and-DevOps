@@ -536,6 +536,20 @@ Link:
 [Class Practical 7 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/7%20Apr%20Readme.md)
 
 
+### Class Practical — 9 Apr (Git Practical)
+This practical session walked through core Git workflows: cloning a remote repo, making commits, working with branches, and understanding how Git tracks changes.
+
+- Setup & Cloning
+- Basic Commits
+- Renaming Branches
+- Modifying Files & Staging
+- Branching & Feature Work
+- Merging
+- Branch Summary
+
+Link:
+[Class Practical 9 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/9%20Apr%20Readme.md)
+
 
 ---
 
