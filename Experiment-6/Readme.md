@@ -15,13 +15,14 @@ To understand and compare the **imperative approach (docker run)** and the **dec
 ---
 
 ##  Project Structure
+```
 Experiment6/
 │
 ├── docker-compose-files/
 ├── screenshots/
 ├── answers.txt
 └── README.md
-
+```
 --- 
 
 
