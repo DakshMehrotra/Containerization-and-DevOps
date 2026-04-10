@@ -167,3 +167,8 @@ git log --oneline --graph  # Visual commit history
 git diff                # See unstaged changes
 git status              # Working tree status
 ```
+
+---
+
+## Result
+This practical session walked through core Git workflows: cloning a remote repo, making commits, working with branches, and understanding how Git tracks changes.
