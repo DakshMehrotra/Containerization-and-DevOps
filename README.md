@@ -77,6 +77,7 @@ This experiment covers the fundamentals of Docker including:
 - Container start/stop/remove lifecycle commands  
 
 Link: [Experiment 2 — Docker Installation & Container Lifecycle](./Experiment-2/)
+---
 
 ### Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)
 This experiment focuses on building custom Docker images using different Linux base images and deploying NGINX inside containers.
@@ -99,6 +100,8 @@ Key Implementation:
 
 Link: [Experiment 3 — Custom Docker Images (Ubuntu & Alpine Based NGINX)](./Experiment-3/)
 
+---
+
 
 ### Experiment 4 - Containerization using Dockerfile, .dockerignore, Tagging & Publishing
 The experiment was successfully completed by containerizing both a Python Flask application and a Node.js Express application using Docker. The following outcomes were achieved:
@@ -116,6 +119,8 @@ The experiment was successfully completed by containerizing both a Python Flask 
 
 Link: [Experiment 4 - Docker Networking, Volumes & Environment Variables Lab](./Experiment-4/)
 
+---
+
 ### Experiment 5 - Containerization using Dockerfile, .dockerignore, Tagging & Publishing
 - All objectives of Experiment 5 were successfully completed.
 The experiment demonstrated a practical understanding of:
@@ -128,6 +133,21 @@ The experiment demonstrated a practical understanding of:
 
 Link: [Experiment 5 - Docker Networking, Volumes & Environment Variables Lab](./Experiment-5/)
 
+---
+
+### Experiment 6 - Docker Run vs Docker Compose
+- All objectives of Experiment 6 were successfully completed.
+The experiment demonstrated a practical understanding of:
+- Understood Docker Run vs Compose
+- Built single and multi-container applications
+- Converted commands to Compose
+- Used Dockerfile with Compose
+- Learned basics of container orchestration
+
+Link: [Experiment 6 - Docker Run vs Docker Compose](./Experiment-6/)
+
+---
+
 ### Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub
 - All objectives of Experiment 7 were successfully completed.
 The experiment demonstrated a practical understanding of:
@@ -139,6 +159,7 @@ The experiment demonstrated a practical understanding of:
 
 Link: [Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Experiment-7/)
 
+---
 
 
 ## Assignments Included
@@ -154,6 +175,7 @@ Link: [Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Exp
 
 Link: [Assignment 1 - Containerized Web Application with PostgreSQL using Docker Compose and IPVLAN](./Assignment-1)
 
+---
 
 ## Class Practicals Included
 
@@ -168,6 +190,8 @@ A date-wise practical session focused on understanding and implementing core Dev
 Link:
 [Class Practical 21 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/21%20Jan%20Readme.md)
 
+---
+
 ### Class Practical — 22 January (Docker Basics & Container Management)
 A date-wise practical session focused on exploring Docker core concepts and managing containers through hands-on classroom implementation using:
 - Docker CLI Commands
@@ -178,6 +202,8 @@ A date-wise practical session focused on exploring Docker core concepts and mana
 
 Link:
 [Class Practical 22 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/22%20Jan%20Readme.md)
+
+---
 
 ### Class Practical — 23 January (Docker Networking & Multi-Container Basics)
 A date-wise practical session focused on understanding Docker networking concepts and working with multiple containers through hands-on classroom exercises using:
@@ -190,6 +216,9 @@ A date-wise practical session focused on understanding Docker networking concept
 Link:
 [Class Practical 23 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/23%20Jan%20Readme.md)
 
+
+---
+
 ### Class Practical — 27 January (Docker Volumes & Persistent Storage)
 A date-wise practical session focused on understanding Docker data persistence concepts and managing storage using hands-on classroom implementation through:
 - Docker Volume Creation
@@ -200,6 +229,8 @@ A date-wise practical session focused on understanding Docker data persistence c
 
 Link:
 [Class Practical 27 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/27%20Jan%20Readme.md)
+
+---
 
 ### Class Practical — 28 January (Docker Compose & Multi-Service Deployment)
 A date-wise practical session focused on learning Docker Compose and deploying multi-container applications through structured classroom exercises using:
@@ -212,6 +243,8 @@ A date-wise practical session focused on learning Docker Compose and deploying m
 Link:
 [Class Practical 28 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/28%20Jan%20Readme.md)
 
+---
+
 ### Class Practical — 30 January (Dockerfile Creation & Image Building)
 A date-wise practical session focused on understanding Dockerfile instructions and building custom Docker images through hands-on classroom implementation using:
 - Dockerfile Syntax and Commands
@@ -222,6 +255,8 @@ A date-wise practical session focused on understanding Dockerfile instructions a
 
 Link:
 [Class Practical 30 Jan](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/30%20Jan%20Readme.md)
+
+---
 
 ### Class Practical — 3 Feb (Docker Installation Verification & Nginx Deployment)
 A practical session focused on verifying Docker Desktop setup, testing Docker Engine connectivity through CLI and REST API, and deploying a production-ready Nginx container through hands-on implementation using:
@@ -235,6 +270,8 @@ A practical session focused on verifying Docker Desktop setup, testing Docker En
 
 Link:
 [Class Practical 3 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/3%20Feb%20Readme.md)
+
+---
 
 ### Class Practical — 4 Feb (Docker Engine Configuration & Remote API Access)
 A hands-on practical session focused on configuring Docker Engine, enabling Remote API communication, and validating daemon connectivity through CLI and UNIX socket testing using:
@@ -250,6 +287,8 @@ A hands-on practical session focused on configuring Docker Engine, enabling Remo
 Link:
 [Class Practical 4 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/4%20Feb%20Readme.md)
 
+---
+
 ### Class Practical Test — 5 Feb (Containerizing Python SAP ID Verification Application)
 A hands-on class test focused on containerizing a Python-based SAP ID verification application using Docker, demonstrating real-world application packaging and execution inside containers through implementation using:
 - Official Docker Base Image (Python 3.10 Slim)
@@ -263,6 +302,8 @@ A hands-on class test focused on containerizing a Python-based SAP ID verificati
 
 Link:
 [Class Practical Test 5 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/5%20Feb(Class%20Test)%20Readme.md)
+
+---
 
 ### Class Practical — 6 Feb (Running Python Application Using Docker Volume Mount (Continuous Runtime))
 A hands-on practical session focused on executing a containerized Python application using Docker volume mounting for dynamic runtime execution, demonstrating real-world development workflow through implementation using:
@@ -278,6 +319,8 @@ A hands-on practical session focused on executing a containerized Python applica
 Link:
 [Class Practical 6 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Readme.md)
 
+---
+
 ### Class Practical — 6 Feb Assignment (Running C Application Using Docker Volume Mount (Runtime Compilation & Continuous Execution))
 A hands-on practical session focused on compiling and running a containerized C application using Docker volume mounting for dynamic runtime execution, demonstrating multi-language container workflows through implementation using:
 - Official Docker Base Image (GCC Latest)
@@ -291,6 +334,8 @@ A hands-on practical session focused on compiling and running a containerized C 
 
 Link:
 [Class Practical 6 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/6%20Feb%20Assignment%20Readme.md)
+
+---
 
 ### Class Practical — 10 Feb (C Application Containerization & Optimization)
 A hands-on practical series focused on building, running, and optimizing containerized C applications using Docker. This included runtime execution using volume mounts and production-level image optimization using multi-stage builds and minimal scratch runtime images. The practical demonstrated real-world container development workflows through implementation using:
@@ -307,6 +352,8 @@ A hands-on practical series focused on building, running, and optimizing contain
 
 Link:
 [Class Practical 10 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/10%20Feb%20Readme.md)
+
+---
 
 ### Class Practical — 10 Feb Assignment (Multi-Stage Build for Java Application with Secure Runtime Container)
 A hands-on practical session focused on implementing enterprise-grade Docker container build workflows using multi-stage builds for Java applications. This practical demonstrated real-world production container optimization by separating build and runtime environments, reducing image size, and improving container security using non-root user implementation through execution using:
@@ -329,6 +376,8 @@ A hands-on practical session focused on implementing enterprise-grade Docker con
 Link:
 [Class Practical 10 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/10%20Feb%20Assignment%20Readme.md)
 
+---
+
 
 ### Class Practical — 11 Feb (Docker Volume Management & Data Persistence)
 A hands-on practical session focused on implementing Docker storage mechanisms using named volumes and bind mounts to enable persistent data management between host and container environments. This practical demonstrated real-world container storage workflows through implementation using:
@@ -347,6 +396,8 @@ A hands-on practical session focused on implementing Docker storage mechanisms u
 
 Link:
 [Class Practical 11 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/11%20Feb%20Readme.md)
+
+---
 
 
 ### Class Practical — 11 Feb Assignment (Volume Backup, Restore & Inspection Using TAR & Named Volumes)
@@ -369,6 +420,8 @@ A hands-on practical session focused on implementing advanced Docker storage man
 Link:
 [Class Practical 11 Feb Assignment](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/11%20Feb%20Assignment%20Readme.md)
 
+---
+
 ### Class Practical — 12 Feb (Docker Volumes, Bind Mounts, tmpfs & MySQL Persistence)
 This class focused on understanding Docker storage mechanisms by working with named volumes, bind mounts, and tmpfs mounts, along with implementing persistent storage for a MySQL container.
 - Verified Docker setup using docker info
@@ -385,6 +438,8 @@ This class focused on understanding Docker storage mechanisms by working with na
 Link:
 [Class Practical 12 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/12%20Feb%20Readme.md)
 
+---
+
 
 ### Class Practical — 18 Feb (Docker Networking — Bridge, Custom Network & Container Communicatione)
 This class focused on understanding Docker networking concepts by working with default bridge networks, creating custom user-defined bridge networks, and enabling inter-container communication.
@@ -399,6 +454,8 @@ This class focused on understanding Docker networking concepts by working with d
 
 Link:
 [Class Practical 18 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Feb%20Readme.md)
+
+---
 
 ### Class Practical — 20 Feb (Docker Swarm & Advanced Networking Lab — Bridge, Overlay, Services & Macvlan)
 This lab focused on understanding Docker networking from basic container communication to advanced Swarm-based networking, including overlay networks, service scaling, and macvlan configuration.
@@ -421,6 +478,8 @@ This lab focused on understanding Docker networking from basic container communi
 Link:
 [Class Practical 20 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/20%20Feb%20Readme.md)
 
+---
+
 
 ### Class Practical — 25 Feb (Docker Compose – Nginx & WordPress with MySQL)
 This class practical successfully demonstrated the working of Docker Compose for both single-container and multi-container applications. Using Docker Compose:
@@ -433,6 +492,8 @@ This class practical successfully demonstrated the working of Docker Compose for
 Link:
 [Class Practical 25 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/25%20Feb%20Readme.md)
 
+---
+
 
 ### Class Practical — 26 Feb (Scaling Services using Docker Compose)
 This experiment demonstrated how Docker Compose can scale services easily using the --scale flag.
@@ -444,6 +505,8 @@ This experiment demonstrated how Docker Compose can scale services easily using 
 
 Link:
 [Class Practical 26 Feb](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/26%20Feb%20Readme.md)
+
+---
 
 ### Class Practical — 18 Mar (Kubernetes Setup using k3d (Mac M1))
 The Kubernetes environment was successfully set up on Mac M1 using Docker, k3d, and kubectl.
@@ -461,6 +524,8 @@ The following outcomes were achieved:
 Link:
 [Class Practical 18 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/18%20Mar%20Readme.md)
 
+---
+
 ### Class Practical — 19 Mar (Kubernetes Deployment & Service Exposure (k3d))
 This practical demonstrated:
 - Deployment creation
@@ -474,7 +539,7 @@ This practical demonstrated:
 Link:
 [Class Practical 19 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/19%20Mar%20readme.md)
 
-
+---
 
 ### Class Practical — 20 Mar (Docker & Portainer Setup (Mac M1) – Practical)
 This practical demonstrated:
@@ -488,6 +553,8 @@ This practical demonstrated:
 Link:
 [Class Practical 20 Mar](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/20%20Mar%20Readme.md)
 
+---
+
 
 ### Class Practical — 25 Mar Task (Apache Web App)
 This practical demonstrates:
@@ -500,6 +567,8 @@ This practical demonstrates:
 Link:
 [Class Practical 25 Mar Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/25%20Mar%20Task%20Readme.md)
 
+---
+
 
 ### Class Practical — 27 Mar Task (Imperative vs Declarative Deployment)
  This Practical demonstrates:
@@ -511,6 +580,7 @@ Link:
 Link:
 [Class Practical 27 Mar Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/27%20Mar%20Task%20Readme.md)
 
+---
 
 ### Class Practical — 1 Apr (Jenkins on Docker)
 This class practical successfully demonstrates the deployment of Jenkins inside a Docker container on Apple Silicon hardware. By leveraging Docker's multi-platform support and Docker Compose for service orchestration, a production-ready Jenkins CI/CD server was configured with minimal infrastructure overhead.
@@ -520,10 +590,10 @@ This class practical successfully demonstrates the deployment of Jenkins inside 
 - Named volumes ensure Jenkins data persistence across container lifecycles
 - Jenkins initial setup is straightforward, but debugging container and networking issues requires familiarity with Docker fundamentals
 
-
 Link:
 [Class Practical 1 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/1%20Apr%20Readme.md)
 
+---
 
 ### Class Practical — 7 Apr (Git & GitHub SSH Setup)
 This project documents the end-to-end process of setting up Git version control and GitHub SSH authentication on a Mac, creating a local repository, working with branches, and pushing code to a remote GitHub repository.
@@ -535,6 +605,7 @@ This project documents the end-to-end process of setting up Git version control 
 Link:
 [Class Practical 7 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/7%20Apr%20Readme.md)
 
+---
 
 ### Class Practical — 9 Apr (Git Practical)
 This practical session walked through core Git workflows: cloning a remote repo, making commits, working with branches, and understanding how Git tracks changes.
@@ -550,8 +621,8 @@ This practical session walked through core Git workflows: cloning a remote repo,
 Link:
 [Class Practical 9 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/9%20Apr%20Readme.md)
 
-
 ---
+
 
 ## Topics Covered
 
