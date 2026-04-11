@@ -637,6 +637,21 @@ Link:
 [Class Practical 9 Apr](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/9%20Apr%20Readme.md)
 
 ---
+### Class Practical — 10 Apr Task (Dockerize a Python FastAPI server, automate build & push to Docker Hub using GitHub Actions)
+Continuous Delivery (CD) is a DevOps practice where code changes are:
+- Automatically built
+- Automatically tested
+- Automatically prepared for release
+
+I now have validated a complete pipeline:
+
+- Code Change → Git Push → GitHub Actions → Docker Build → Docker Push → Local Run → Verified Output
+
+
+Link:
+[Class Practical — 10 Apr Task](./ClassPractical/10AprTask)
+
+---
 
 
 ## Topics Covered
