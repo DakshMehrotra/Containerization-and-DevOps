@@ -161,6 +161,23 @@ Link: [Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Exp
 
 ---
 
+## Experiment 9 - Ansible Automation with Docker
+- All objectives of Experiment 7 were successfully completed.
+The experiment demonstrated a practical understanding of:
+
+- Understand the architecture of Ansible — including the roles of the control node, managed nodes, inventory, modules, tasks, and playbooks, and how they work together in an agentless, SSH-based automation model.
+- Set up SSH key-based authentication between a control machine and multiple remote servers, and understand why this is essential for automated, passwordless server management.
+- Write and interpret Ansible inventory files (inventory.ini) to define and group managed nodes with connection variables.
+- Write YAML-based Ansible playbooks to automate real-world tasks such as package installation, file creation, and system information gathering across multiple servers.
+- Use Ansible modules such as apt, copy, command, and debug to perform common system administration tasks declaratively.
+- Demonstrate idempotency — understanding that running the same playbook multiple times produces the same result without unintended side effects, which is a critical property for reliable infrastructure automation.
+- Execute ad-hoc Ansible commands for quick, one-off tasks without writing a full playbook.
+- Use Docker containers as simulated servers to practice multi-node infrastructure management in a local environment without requiring real cloud VMs.
+- Recognize the practical value of Infrastructure as Code (IaC) — how version-controlled, declarative configuration files eliminate configuration drift and enable consistent, repeatable deployments at scale.
+
+Link: [Experiment 9 - Ansible Automation with Docker](./Experiment-9/)
+
+---
 
 ## Assignments Included
 
