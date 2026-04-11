@@ -582,6 +582,7 @@ This is idempotency: **safe to run multiple times**.
 -  Containers stopped (cleanup)
 
 <img width="1440" height="900" alt="Screenshot 2026-04-11 at 8 27 50 AM" src="https://github.com/user-attachments/assets/dfb15e1a-55e5-4fa6-97f0-67c0c2787bc4" />
+<img width="1440" height="170" alt="Screenshot 2026-04-11 at 9 15 07 AM" src="https://github.com/user-attachments/assets/e1713afe-9476-4d1e-9b95-8be79a6623fd" />
 <img width="1440" height="900" alt="Screenshot 2026-04-11 at 8 32 20 AM" src="https://github.com/user-attachments/assets/e355e23d-487e-454a-b5e3-132f1b3842be" />
 <img width="1440" height="900" alt="Screenshot 2026-04-11 at 8 32 26 AM" src="https://github.com/user-attachments/assets/2c47e8ea-06b6-4c7d-bb17-4174fab60c24" />
 <img width="1440" height="414" alt="Screenshot 2026-04-11 at 8 33 11 AM" src="https://github.com/user-attachments/assets/1f919f84-ae56-48b9-976b-3169e0484c3a" />
