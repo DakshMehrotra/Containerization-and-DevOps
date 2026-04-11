@@ -649,7 +649,7 @@ I now have validated a complete pipeline:
 
 
 Link:
-[Class Practical — 10 Apr Task](./ClassPractical/10AprTask)
+[Class Practical — 10 Apr Task](https://github.com/DakshMehrotra/Containerization-and-DevOps/blob/main/Class%20Practical/10%20Apr%20Task%20Readme.md)
 
 ---
 
