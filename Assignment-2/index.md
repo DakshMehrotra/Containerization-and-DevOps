@@ -1,7 +1,7 @@
 # DevOps Team & Collaborations
 **Topic #18 | School of Computer Science**
-Nakul Yadav (500121882) · Daksh Mehrotra (500125960)
-
+- Daksh Mehrotra (500125960)
+- Nakul Yadav (500121882)
 ---
 
 ## What This Is
