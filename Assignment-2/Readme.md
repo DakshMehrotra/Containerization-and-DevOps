@@ -2,7 +2,7 @@
 **Topic #18 | School of Computer Science**
 Nakul Yadav (500121882) · Daksh Mehrotra (500125960)
 
-**[View Presentation](./Daksh%20Mehrotra%20-%20500125960%20DevOps%20assignment%20-%202)**
+**[View Presentation](./Daksh%20Mehrotra%20-%20500125960%20DevOps%20assignment%20-%202.pptx)**
 
 ---
 
