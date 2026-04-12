@@ -1,17 +1,17 @@
 # DevOps Team & Collaborations
 **Topic #18 | School of Computer Science**
-Nakul Yadav (500121882) · Daksh Mehrotra (500125960)
-
-**[View Presentation](./Daksh%20Mehrotra%20-%20500125960%20DevOps%20assignment%20-%202.pptx)**
-
+- Daksh Mehrotra (500125960)
+- Nakul Yadav (500121882)
 ---
 
 ## What This Is
+
 A presentation assignment on how DevOps teams are actually structured, how they communicate, and why the old Dev vs Ops silo model is a disaster. We cover everything from the theory side (team models, roles, DORA metrics) to real-world proof (Netflix case study).
 
 ---
 
 ## What's Covered
+
 | # | Slide | What it's about |
 |---|-------|-----------------|
 | 1 | The Problem | Dev/Ops silos — the blame culture, slow releases, frequent outages |
@@ -28,6 +28,7 @@ A presentation assignment on how DevOps teams are actually structured, how they 
 ---
 
 ## The Core Argument
+
 DevOps isn't a tool or a job title — it's a culture shift. The old model had Dev throwing code over a wall to Ops, Ops blaming Dev when prod broke, and everyone miserable. DevOps tears down that wall through shared ownership, automation, and obsessive communication.
 
 The Netflix story is the best proof: they went from a single DB corruption taking down the entire platform for 3 days (2008) to 500+ deployments per day with 99.99% uptime. Not magic — just full-cycle developer teams, Chaos Monkey, and "you build it, you run it."
@@ -35,6 +36,7 @@ The Netflix story is the best proof: they went from a single DB corruption takin
 ---
 
 ## Key Metrics (DORA Framework)
+
 | Metric | Elite Team Target |
 |--------|------------------|
 | Deployment Frequency | Multiple times/day |
@@ -47,6 +49,7 @@ The Netflix story is the best proof: they went from a single DB corruption takin
 ---
 
 ## References
+
 - [DORA State of DevOps Report 2023](https://cloud.google.com/devops/state-of-devops) — Google Cloud
 - [Team Topologies](https://teamtopologies.com) — Skelton & Pais (2019)
 - [Full Cycle Developers at Netflix](https://netflixtechblog.com) — Netflix Tech Blog
@@ -56,6 +59,7 @@ The Netflix story is the best proof: they went from a single DB corruption takin
 ---
 
 ## Contributions
+
 | Name | Role |
 |------|------|
 | Daksh Mehrotra | Presenter & Researcher — Netflix case study, DORA metrics, design coordination |
