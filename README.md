@@ -191,6 +191,15 @@ Link: [Experiment 9 - Ansible Automation with Docker](./Experiment-9/)
 Link: [Assignment 1 - Containerized Web Application with PostgreSQL using Docker Compose and IPVLAN](./Assignment-1)
 
 ---
+### Assignment 2 - Presentation on DevOps Team & Collaborations
+- Presentation assignment on DevOps team culture, structure, and collaboration
+- Covers why the classic Dev vs Ops silo model fails and what replaces it
+- Goes from theory (team models, roles, DORA metrics) to real-world proof (Netflix)
+- Built around the idea that DevOps is a culture shift, not a toolset
+
+Link: [Assignment 2 - Presentation on DevOps Team & Collaborations](./Assignment-2)
+
+---
 
 ## Class Practicals Included
 
