@@ -1,4 +1,4 @@
-# 🔍 Lab 10 — SonarQube: Continuous Code Quality Inspection
+# Lab 10 — SonarQube: Continuous Code Quality Inspection
 
 > **Subject:** Container Technology & DevOps  
 > **Semester:** 6th  
