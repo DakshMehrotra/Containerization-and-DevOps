@@ -177,7 +177,7 @@ Link: [Experiment 9 - Ansible Automation with Docker](./Experiment-9/)
 
 ---
 ## Experiment 10 - SonarQube: Continuous Code Quality Inspection
-- - All objectives of Experiment 10 were successfully completed.
+- All objectives of Experiment 10 were successfully completed.
 The experiment demonstrated a practical understanding of:
 Here are 5 practical understanding points for Lab 10:
 - SonarQube needs two separate components to work You can't just run the server — nothing gets analyzed. And you can't just run the scanner — there's nowhere to send results. You learned this hands-on when you ran docker compose up -d for the server first, then separately triggered mvn sonar:sonar as the scanner. Both must be running and connected for the pipeline to work.
