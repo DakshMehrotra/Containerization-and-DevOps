@@ -162,7 +162,7 @@ Link: [Experiment 7 - CI/CD Pipeline using Jenkins, GitHub and Docker Hub](./Exp
 ---
 
 ## Experiment 9 - Ansible Automation with Docker
-- All objectives of Experiment 7 were successfully completed.
+- All objectives of Experiment 9 were successfully completed.
 The experiment demonstrated a practical understanding of:
 
 - Understand the architecture of Ansible — including the roles of the control node, managed nodes, inventory, modules, tasks, and playbooks, and how they work together in an agentless, SSH-based automation model.
@@ -174,6 +174,19 @@ The experiment demonstrated a practical understanding of:
 - Recognize the practical value of Infrastructure as Code (IaC) — how version-controlled, declarative configuration files eliminate configuration drift and enable consistent, repeatable deployments at scale.
 
 Link: [Experiment 9 - Ansible Automation with Docker](./Experiment-9/)
+
+---
+## Experiment 10 - SonarQube: Continuous Code Quality Inspection
+- - All objectives of Experiment 10 were successfully completed.
+The experiment demonstrated a practical understanding of:
+Here are 5 practical understanding points for Lab 10:
+- SonarQube needs two separate components to work You can't just run the server — nothing gets analyzed. And you can't just run the scanner — there's nowhere to send results. You learned this hands-on when you ran docker compose up -d for the server first, then separately triggered mvn sonar:sonar as the scanner. Both must be running and connected for the pipeline to work.
+- Static analysis finds bugs without executing the code Maven never actually ran your Calculator.java — it just read it. Yet SonarQube still caught the divide-by-zero risk and the SQL injection vulnerability. This is what "static analysis" means in practice — the tool reads your code the way a senior developer would during a code review, spotting patterns that are known to cause problems.
+- The Quality Gate is what connects code quality to deployment The Jenkinsfile you wrote has waitForQualityGate abortPipeline: true — meaning if your code fails the gate, the pipeline stops and nothing gets deployed. This is the practical enforcement mechanism. Without it, SonarQube is just a report nobody reads. With it, bad code physically cannot reach production.
+- Technical debt is measurable, not just a feeling Before this lab, "bad code" was vague. SonarQube put a number on it — approximately 2 hours of estimated fix time. This is how real engineering teams justify refactoring work to managers: not "the code feels messy" but "we have 14 hours of technical debt accumulating at 2 hours per sprint."
+- The fix-and-rescan cycle is the actual workflow When you fixed the divide-by-zero bug and re-ran mvn sonar:sonar, the bug count dropped on the dashboard immediately. This is exactly how developers use SonarQube in real jobs — write code, push it, scanner runs in CI, you get a report, you fix issues, you push again, the gate turns green. The tool only has value if you close the loop, which you demonstrated by doing the rescan.
+
+Link: [Experiment 10 - SonarQube: Continuous Code Quality Inspection](./Experiment-10/)
 
 ---
 
