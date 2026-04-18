@@ -5,6 +5,7 @@
 > **Experiment No.:** 10  
 > **Tool:** SonarQube LTS Community + PostgreSQL (Docker)  
 > **Platform:** Mac M1 (Apple Silicon)
+> Daksh Mehrotra - 500125960
 
 ---
 
