@@ -1,10 +1,11 @@
-# 🔍 Lab 10 — SonarQube: Continuous Code Quality Inspection
+# Lab 10 — SonarQube: Continuous Code Quality Inspection
 
 > **Subject:** Container Technology & DevOps  
 > **Semester:** 6th  
 > **Experiment No.:** 10  
 > **Tool:** SonarQube LTS Community + PostgreSQL (Docker)  
 > **Platform:** Mac M1 (Apple Silicon)
+> Daksh Mehrotra - 500125960
 
 ---
 
