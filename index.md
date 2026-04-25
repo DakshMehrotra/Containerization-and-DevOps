@@ -437,7 +437,7 @@ footer{
     <div class="t-line"><span class="t-out">{ <span class="t-val">"name"</span>: <span class="t-val">"Daksh Mehrotra"</span>, <span class="t-val">"sap"</span>: <span class="t-val">"500125960"</span> }</span></div>
     <div class="t-line"><span class="t-out">{ <span class="t-val">"roll"</span>: <span class="t-val">"R2142231932"</span>, <span class="t-val">"batch"</span>: <span class="t-val">"2 CCVT"</span> }</span></div>
     <div class="t-line" style="margin-top:8px"><span class="t-prompt">daksh@lab:~$</span><span class="t-cmd"> docker ps -a | grep lab</span></div>
-    <div class="t-line"><span class="t-out" style="color:var(--green)">✔ experiments: <span class="t-val">11 RUNNING</span> &nbsp;|&nbsp; practicals: <span class="t-val">28 COMPLETED</span></span></div>
+    <div class="t-line"><span class="t-out" style="color:var(--green)">✔ experiments: <span class="t-val">12 RUNNING</span> &nbsp;|&nbsp; practicals: <span class="t-val">28 COMPLETED</span></span></div>
     <div class="t-line" style="margin-top:8px"><span class="t-prompt">daksh@lab:~$</span><span class="t-cmd"> kubectl get all --namespace=devops-lab</span></div>
     <div class="t-line"><span class="t-out">STATUS: <span style="color:var(--green)">All systems operational</span> &nbsp;<span class="t-comment">// academic year 2024-25</span></span></div>
     <div class="t-line" style="margin-top:8px"><span class="t-prompt">daksh@lab:~$</span><span class="cursor"></span></div>
@@ -457,7 +457,7 @@ footer{
 </div>
 
 <div class="hud">
-  <div class="hud-cell" data-label="Experiments"><span class="hud-val">11</span></div>
+  <div class="hud-cell" data-label="Experiments"><span class="hud-val">12</span></div>
   <div class="hud-cell" data-label="Assignments"><span class="hud-val">02</span></div>
   <div class="hud-cell" data-label="Practicals"><span class="hud-val">28<span class="hud-unit">+</span></span></div>
   <div class="hud-cell" data-label="Technologies"><span class="hud-val">15<span class="hud-unit">+</span></span></div>
@@ -479,7 +479,7 @@ footer{
     <span class="sec-name">Lab <span>Experiments</span></span>
   </div>
   <div class="sec-line"></div>
-  <span class="sec-count">11 modules</span>
+  <span class="sec-count">12 modules</span>
 </div>
 
 <div class="exp-grid" style="margin-bottom:80px">
@@ -682,7 +682,6 @@ footer{
     </div>
   </a>
 
-  <!-- ── NEW: EXP-11 ── -->
   <a class="exp-card cv-cyan" href="./Experiment-11/">
     <div class="exp-bar"></div>
     <div class="exp-inner">
@@ -699,6 +698,29 @@ footer{
       <div class="exp-footer">
         <div class="exp-tags">
           <span class="tag tag-cyan">Docker Swarm</span><span class="tag tag-green">Self-Healing</span><span class="tag tag-purple">Overlay Net</span><span class="tag tag-gray">Rolling Update</span>
+        </div>
+        <span class="exp-link-btn">Open ↗</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- ── NEW: EXP-12 ── -->
+  <a class="exp-card cv-purple" href="./Experiment-12/">
+    <div class="exp-bar"></div>
+    <div class="exp-inner">
+      <div class="exp-meta">
+        <span class="exp-num-badge">EXP-12</span>
+        <div class="exp-icon">☸️</div>
+      </div>
+      <h3>Container Orchestration using Kubernetes</h3>
+      <div class="exp-snippet">
+        <div><span class="ps">$</span><span class="cmd">kubectl apply</span> <span class="flag">-f</span> <span class="arg">wordpress-deployment.yaml</span></div>
+        <div><span class="ps">$</span><span class="cmd">kubectl scale</span> <span class="arg">deployment wordpress</span> <span class="flag">--replicas=4</span> <span class="t-comment"># ✓</span></div>
+      </div>
+      <p>Full Kubernetes lifecycle — deployed WordPress via YAML manifests, exposed with NodePort Service, scaled to 4 replicas, demonstrated self-healing, rolling updates, and rollbacks. Built a real 3-node cluster using kubeadm on Ubuntu VMs via Multipass on M1 Mac.</p>
+      <div class="exp-footer">
+        <div class="exp-tags">
+          <span class="tag tag-purple">Kubernetes</span><span class="tag tag-cyan">kubeadm</span><span class="tag tag-green">Self-Healing</span><span class="tag tag-gray">Calico</span>
         </div>
         <span class="exp-link-btn">Open ↗</span>
       </div>
@@ -916,6 +938,9 @@ footer{
   <div class="tech-item" style="--t-col:#00d4ff"><div class="tech-dot"></div><span class="tech-name">Docker Swarm</span></div>
   <div class="tech-item" style="--t-col:#b44fff"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">Kubernetes</span></div>
   <div class="tech-item" style="--t-col:#b44fff"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">k3d / kubectl</span></div>
+  <div class="tech-item" style="--t-col:#b44fff"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">kubeadm</span></div>
+  <div class="tech-item" style="--t-col:#b44fff"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">Multipass</span></div>
+  <div class="tech-item" style="--t-col:#b44fff"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">Calico CNI</span></div>
   <div class="tech-item" style="--t-col:#b44fff"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">Portainer</span></div>
   <div class="tech-item" style="--t-col:#ff4060"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">Jenkins</span></div>
   <div class="tech-item" style="--t-col:#ff4060"><div class="tech-dot" style="background:var(--t-col)"></div><span class="tech-name">GitHub Actions</span></div>
