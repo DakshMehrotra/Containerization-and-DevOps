@@ -437,7 +437,7 @@ footer{
     <div class="t-line"><span class="t-out">{ <span class="t-val">"name"</span>: <span class="t-val">"Daksh Mehrotra"</span>, <span class="t-val">"sap"</span>: <span class="t-val">"500125960"</span> }</span></div>
     <div class="t-line"><span class="t-out">{ <span class="t-val">"roll"</span>: <span class="t-val">"R2142231932"</span>, <span class="t-val">"batch"</span>: <span class="t-val">"2 CCVT"</span> }</span></div>
     <div class="t-line" style="margin-top:8px"><span class="t-prompt">daksh@lab:~$</span><span class="t-cmd"> docker ps -a | grep lab</span></div>
-    <div class="t-line"><span class="t-out" style="color:var(--green)">✔ experiments: <span class="t-val">10 RUNNING</span> &nbsp;|&nbsp; practicals: <span class="t-val">28 COMPLETED</span></span></div>
+    <div class="t-line"><span class="t-out" style="color:var(--green)">✔ experiments: <span class="t-val">11 RUNNING</span> &nbsp;|&nbsp; practicals: <span class="t-val">28 COMPLETED</span></span></div>
     <div class="t-line" style="margin-top:8px"><span class="t-prompt">daksh@lab:~$</span><span class="t-cmd"> kubectl get all --namespace=devops-lab</span></div>
     <div class="t-line"><span class="t-out">STATUS: <span style="color:var(--green)">All systems operational</span> &nbsp;<span class="t-comment">// academic year 2024-25</span></span></div>
     <div class="t-line" style="margin-top:8px"><span class="t-prompt">daksh@lab:~$</span><span class="cursor"></span></div>
@@ -457,7 +457,7 @@ footer{
 </div>
 
 <div class="hud">
-  <div class="hud-cell" data-label="Experiments"><span class="hud-val">10</span></div>
+  <div class="hud-cell" data-label="Experiments"><span class="hud-val">11</span></div>
   <div class="hud-cell" data-label="Assignments"><span class="hud-val">02</span></div>
   <div class="hud-cell" data-label="Practicals"><span class="hud-val">28<span class="hud-unit">+</span></span></div>
   <div class="hud-cell" data-label="Technologies"><span class="hud-val">15<span class="hud-unit">+</span></span></div>
@@ -479,7 +479,7 @@ footer{
     <span class="sec-name">Lab <span>Experiments</span></span>
   </div>
   <div class="sec-line"></div>
-  <span class="sec-count">10 modules</span>
+  <span class="sec-count">11 modules</span>
 </div>
 
 <div class="exp-grid" style="margin-bottom:80px">
@@ -676,6 +676,29 @@ footer{
       <div class="exp-footer">
         <div class="exp-tags">
           <span class="tag tag-yellow">SonarQube</span><span class="tag tag-orange">Maven</span><span class="tag tag-green">Quality Gate</span>
+        </div>
+        <span class="exp-link-btn">Open ↗</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- ── NEW: EXP-11 ── -->
+  <a class="exp-card cv-cyan" href="./Experiment-11/">
+    <div class="exp-bar"></div>
+    <div class="exp-inner">
+      <div class="exp-meta">
+        <span class="exp-num-badge">EXP-11</span>
+        <div class="exp-icon">🐝</div>
+      </div>
+      <h3>Docker Orchestration — Compose → Swarm</h3>
+      <div class="exp-snippet">
+        <div><span class="ps">$</span><span class="cmd">docker stack deploy</span> <span class="flag">-c</span> <span class="arg">docker-compose.yml wpstack</span></div>
+        <div><span class="ps">$</span><span class="cmd">docker service scale</span> <span class="arg">wpstack_wordpress=5</span> <span class="t-comment"># instant ✓</span></div>
+      </div>
+      <p>Migrated a WordPress + MySQL stack from Docker Compose to Docker Swarm. Demonstrated production-grade orchestration: auto-scaling 1→5 replicas, self-healing after force-killed containers, rolling updates with zero downtime, and overlay networking across the cluster.</p>
+      <div class="exp-footer">
+        <div class="exp-tags">
+          <span class="tag tag-cyan">Docker Swarm</span><span class="tag tag-green">Self-Healing</span><span class="tag tag-purple">Overlay Net</span><span class="tag tag-gray">Rolling Update</span>
         </div>
         <span class="exp-link-btn">Open ↗</span>
       </div>
