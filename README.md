@@ -205,7 +205,24 @@ In summary, Docker Swarm demonstrated that orchestration is not just about runni
 Link: [Experiment 11 - Docker Orchestration](./Experiment-11/)
 
 ---
+## Experiment 12 — Container Orchestration using Kubernetes
+This experiment gave a real-world, end-to-end understanding of Kubernetes far beyond theory.
 
+Starting from basic concepts, I deployed WordPress using proper YAML manifests, exposed it through a Service, scaled it horizontally, and demonstrated self-healing. The Apache practical covered the full application lifecycle — from raw pod to managed deployment with debugging and live content modification.
+
+Part D elevated the experiment to a production-style setup: three Ubuntu VMs joined into a real kubeadm cluster with a proper control plane, Calico networking, and worker nodes — the same architecture used in real companies.
+
+The bonus operations — rolling updates, rollbacks, metrics, namespaces, ConfigMaps, and YAML exports — show production-readiness beyond what the lab sheet required.
+
+**Biggest takeaways:**
+- Kubernetes is not just a container runner — it is a full platform for managing application lifecycle
+- Self-healing, scaling, and rollbacks make it genuinely production-grade
+- The gap between theory and hands-on understanding is enormous — this lab closed that gap
+
+
+Link: [Experiment 12 - Container Orchestration using Kubernetes](./Experiment-12/)
+
+---
 ## Assignments Included
 
 ### Assignment 1 - Containerized Web Application with PostgreSQL using Docker Compose and IPVLAN
