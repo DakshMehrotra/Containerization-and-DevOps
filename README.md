@@ -189,6 +189,22 @@ Here are 5 practical understanding points for Lab 10:
 Link: [Experiment 10 - SonarQube: Continuous Code Quality Inspection](./Experiment-10/)
 
 ---
+## Experiment 11 — Docker Orchestration
+This experiment successfully demonstrated the transition from basic multi-container management using **Docker Compose** to production-grade **container orchestration using Docker Swarm**.
+ 
+The core limitations of Docker Compose — manual scaling, no fault tolerance, and single-host restriction — were directly addressed by Swarm's orchestration layer. By deploying the same `docker-compose.yml` file as a Swarm stack, we achieved:
+ 
+- **Automatic scaling** with a single command, managed by an internal load balancer
+- **Self-healing** that required zero operator intervention when a container failed
+- **Rolling updates** that kept the application live during image refreshes
+- **Overlay networking** that enabled secure service-to-service communication across potential multi-node clusters
+The experiment also highlighted the practical trade-offs in the orchestration spectrum. Docker Compose remains the ideal tool for local development due to its simplicity, while Docker Swarm bridges the gap toward production with manageable complexity. For large-scale deployments requiring advanced features like auto-scaling, fine-grained resource management, and cross-cloud federation, **Kubernetes** remains the industry standard next step.
+ 
+In summary, Docker Swarm demonstrated that orchestration is not just about running containers — it is about maintaining a **desired state** reliably, automatically, and at scale, regardless of individual container failures.
+
+Link: [Experiment 11 - Docker Orchestration](./Experiment-11/)
+
+---
 
 ## Assignments Included
 
