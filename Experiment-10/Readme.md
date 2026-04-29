@@ -321,7 +321,7 @@ curl -u admin:admin123 \
 
 ---
 
-## 📊 Analysis Results
+## Analysis Results
 
 ### Before Fix
 
