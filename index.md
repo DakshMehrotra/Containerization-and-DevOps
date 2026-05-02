@@ -704,7 +704,7 @@ footer{
     </div>
   </a>
 
-  <!-- ── NEW: EXP-12 ── -->
+  <!-- ── EXP-12 ── -->
   <a class="exp-card cv-purple" href="./Experiment-12/">
     <div class="exp-bar"></div>
     <div class="exp-inner">
@@ -721,6 +721,31 @@ footer{
       <div class="exp-footer">
         <div class="exp-tags">
           <span class="tag tag-purple">Kubernetes</span><span class="tag tag-cyan">kubeadm</span><span class="tag tag-green">Self-Healing</span><span class="tag tag-gray">Calico</span>
+        </div>
+        <span class="exp-link-btn">Open ↗</span>
+      </div>
+    </div>
+  </a>
+
+  <!-- ── FINAL LAB: SonarQube Full Lab ── -->
+  <a class="exp-card cv-yellow" href="./Experiment-FinalLab/">
+    <div class="exp-bar"></div>
+    <div class="exp-inner">
+      <div class="exp-meta">
+        <span class="exp-num-badge">FINAL LAB</span>
+        <div class="exp-icon">🛡️</div>
+      </div>
+      <h3>SonarQube: Full CI/CD Quality Pipeline</h3>
+      <div class="exp-snippet">
+        <div><span class="ps">$</span><span class="cmd">docker compose</span> <span class="flag">up</span> <span class="arg">-d</span> <span class="t-comment"># sonarqube + postgres</span></div>
+        <div><span class="ps">$</span><span class="cmd">mvn</span> <span class="flag">sonar:sonar</span> <span class="arg">-Dsonar.login=YOUR_TOKEN</span></div>
+        <div style="color:var(--red)">⚠ BUGS: 5 · VULNS: 2 · SMELLS: 12 → GATE: FAIL</div>
+        <div style="color:var(--green)">✔ Fix divide-by-zero → rescan → BUGS: 4 → improving</div>
+      </div>
+      <p>End-to-end code quality lab: SonarQube LTS + PostgreSQL on Docker Compose, scanned a deliberately flawed Java Calculator app (divide-by-zero, SQL injection, resource leaks, duplicate blocks), wired Quality Gate into a Jenkins pipeline to block deploys on failure. Technical debt measured at 2h 30min. Demonstrated the continuous feedback loop — fix, rescan, watch metrics improve.</p>
+      <div class="exp-footer">
+        <div class="exp-tags">
+          <span class="tag tag-yellow">SonarQube</span><span class="tag tag-orange">Maven</span><span class="tag tag-red">Jenkins</span><span class="tag tag-cyan">PostgreSQL</span><span class="tag tag-green">Quality Gate</span>
         </div>
         <span class="exp-link-btn">Open ↗</span>
       </div>
